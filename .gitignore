@@ -1,0 +1,9 @@
+# Ignorar la carpeta instance de la base de datos
+instance/
+instance/
+
+# Ignorar archivos y carpetas del ambiente virtual
+venv/
+.env/
+*.pyc
+__pycache__/
