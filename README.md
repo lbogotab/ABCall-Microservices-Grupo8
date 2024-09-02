@@ -8,6 +8,8 @@ Este proyecto contiene dos microservicios y utiliza Nginx como API Gateway para 
 - Pip
 - Virtualenv
 - Nginx
+- Docker
+- Redis
 
 ## Configuración del Ambiente
 
@@ -66,10 +68,13 @@ flask run --port=5001
 
 ### 1: Descargar e Instalar Nginx
 
+1. Descarga el paquete de Nginx para Windows desde nginx.org.
+2. Extrae el contenido del archivo descargado en una carpeta, por ejemplo, C:\nginx.
+
 ### 2: Configurar Nginx
 
-Navega a la carpeta C:\nginx\conf y abre el archivo nginx.conf en un editor de texto.
-Agrega la siguiente configuración para redirigir las solicitudes a los microservicios:
+1. Navega a la carpeta C:\nginx\conf y abre el archivo nginx.conf en un editor de texto.
+2. Agrega la siguiente configuración para redirigir las solicitudes a los microservicios:
 
 ```sh
 worker_processes  1;
@@ -115,12 +120,25 @@ http {
 
 ### 3: Iniciar Nginx
 
-Abre una terminal de comandos (CMD) como administrador.
-
-Navega a la carpeta donde extrajiste Nginx, por ejemplo, C:\nginx.
-
-Ejecuta el siguiente comando para iniciar Nginx:
+1. Abre una terminal de comandos (CMD) como administrador.
+2. Navega a la carpeta donde extrajiste Nginx, por ejemplo, C:\nginx.
+3. Ejecuta el siguiente comando para iniciar Nginx:
 
 ```sh
 start nginx
 ```
+
+### Prueba de Funcionamiento
+
+1. Asegúrate de que los microservicios estén corriendo.
+2. Abre un navegador web o Postman
+    - http://localhost/usuario/1 para probar el microservicio de usuarios.
+    - http://localhost/realizar_factura/1 para probar el microservicio de realizar factura.
+
+Si todo está configurado correctamente, deberías ver las respuestas de los microservicios correspondientes.
+
+### Solución de Problemas
+
+- Si Nginx no se inicia, asegúrate de que no haya otro servicio usando el puerto 80.
+- Revisa los archivos de registro de Nginx (logs/error.log y logs/access.log) para obtener más detalles sobre cualquier error.
+- Asegúrate de que las rutas y puertos en tu configuración de Nginx coincidan con los de tus microservicios.
