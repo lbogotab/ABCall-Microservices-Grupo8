@@ -1,7 +1,17 @@
 import requests
 import logging
 import time
+import datetime
 from concurrent.futures import ThreadPoolExecutor
+from celery import Celery
+
+celery_app = Celery(__name__, broker='redis://redis:6379/0')
+
+@celery_app.task(name='notify_service_down')
+def notify_service_down(*args):
+    pass
+
+error_log_queue = 'error_log'
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
@@ -31,8 +41,14 @@ def check_service(name, url):
             logger.info(f'{name} is UP')
         else:
             logger.error(f'{name} is DOWN with status code {response.status_code}')
+            failure_time = datetime.datetime.now().isoformat()
+            args = (name, response.status_code, failure_time)
+            notify_service_down.apply_async(args=args, queue=error_log_queue)
     except requests.exceptions.RequestException as e:
         logger.error(f'{name} is DOWN with error: {e}')
+        failure_time = datetime.datetime.now().isoformat()
+        args = (name, str(e), failure_time)
+        notify_service_down.apply_async(args=args, queue=error_log_queue)
 
 
 # servicio de monitoreo que utiliza varios hilos para monitorear cada endpoint
