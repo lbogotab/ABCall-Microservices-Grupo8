@@ -34,3 +34,10 @@ services:
     depends_on:
       - consulta-factura
       - download-file
+
+  monitor:
+    volumes:
+      - ./monitor/:/mnt/
+    depends_on:
+      - nginx
+    build: ./monitor
