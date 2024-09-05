@@ -4,6 +4,15 @@ services:
     image: redis
     volumes:
       - ./data:/data
+  log_factura:
+    volumes:
+      - ./microservicio_log_factura/:/mnt/
+    build: ./microservicio_log_factura
+    working_dir: /flaskr
+    depends_on:
+      - redis
+    ports:
+      - "5002:5002"
 
   consulta-factura:
     volumes:
