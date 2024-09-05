@@ -34,6 +34,7 @@ endpoints = {
     'consulta-factura': 'http://nginx/facturacion/consulta-factura/health',
     'download-file': 'http://nginx/facturacion/download-file/health',
     'log-factura': 'http://nginx/facturacion/log-factura/health',
+    'realizar-factura': 'http://nginx/facturacion/realizar-factura/health',
 }
 
 

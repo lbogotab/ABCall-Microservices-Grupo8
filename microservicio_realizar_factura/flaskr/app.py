@@ -26,6 +26,10 @@ def registrar_log(id_factura, fecha_factura):
 factura_schema = FacturaSchema()
 factura_single_schema = FacturaSchema()
 
+class VistaHealth(Resource):
+    def get(self):
+        return 'Realizar factura está ok', 200
+
 class VistaRealizarFactura(Resource):
     def post(self, id):
         response = requests.get(f'http://localhost:5060/usuario/{id}')
@@ -66,6 +70,7 @@ class VistaRealizarFactura(Resource):
         return factura
 
 api.add_resource(VistaRealizarFactura, '/realizar_factura/<int:id>')
+api.add_resource(VistaHealth, '/health')
 
 class VistaConsultarFactura(Resource):
     def get(self, id):
