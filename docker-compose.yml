@@ -1,0 +1,49 @@
+version: "3.2"
+services:
+  redis:
+    image: redis
+    volumes:
+      - ./data:/data
+
+  consulta-factura:
+    volumes:
+      - ./consulta-factura/:/mnt/
+    build: ./consulta-factura
+    working_dir: /backend/
+    depends_on:
+      - redis
+    ports:
+      - "5010:5010"
+
+  download-file:
+    volumes:
+      - ./download-file/:/mnt/
+    build: ./download-file
+    working_dir: /backend/
+    ports:
+      - "5020:5020"
+    depends_on:
+      - redis
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - 8080:80
+    volumes:
+      - ./nginx/nginx-proxy.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - consulta-factura
+      - download-file
+
+  monitor:
+    volumes:
+      - ./monitor/:/mnt/
+    depends_on:
+      - nginx
+    build: ./monitor
+
+  log_errores:
+    build: ./log_errores
+    command: celery -A tasks worker --loglevel=info -Q error_log
+    depends_on:
+      - redis
