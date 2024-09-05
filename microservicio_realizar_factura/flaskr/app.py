@@ -65,7 +65,9 @@ class VistaRealizarFactura(Resource):
         
         return factura
 
+
 api.add_resource(VistaRealizarFactura, '/realizar_factura/<int:id>')
+
 
 class VistaConsultarFactura(Resource):
     def get(self, id):
@@ -82,6 +84,7 @@ class VistaConsultarFactura(Resource):
             'fecha': factura.fecha.strftime('%Y-%m-%d %H:%M:%S')
         }
         return jsonify(factura_json)
+
 
 api.add_resource(VistaConsultarFactura, '/factura/<int:id>')
 

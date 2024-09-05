@@ -7,6 +7,8 @@ from datetime import datetime
 app = Flask(__name__)
 api = Api(app)
 
+memory_hog = []
+
 celery_app = Celery('tasks', broker='redis://localhost:6379/0')
 
 
@@ -34,15 +36,33 @@ class VistaDescargarFactura(Resource):
         }
 
         registrar_log_descarga.delay(factura_descargada['usuario_id'], factura_descargada['fecha'])
-
         return jsonify(factura_descargada)
 
 
 api.add_resource(VistaDescargarFactura, '/descargar_factura/<int:id>')
 
+
+class VistaLimpiarMemoria(Resource):
+    def get(self):
+        memory_hog.clear()
+        return "ok"
+
+
+api.add_resource(VistaLimpiarMemoria, '/clean_memory')
+
+
+def consume_memory_progressively():
+    global memory_hog
+    memory_hog.extend([i for i in range((10**7)+len(memory_hog))])
+
+
 @app.route("/health")
 def health():
-    return "Download file está ok!"
+    try:
+        consume_memory_progressively()
+        return "Download file está ok!"
+    except MemoryError:
+        return "Transaction failed due to memory error", 500
 
 
 if __name__ == '__main__':
