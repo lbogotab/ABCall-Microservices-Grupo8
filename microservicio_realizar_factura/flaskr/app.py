@@ -21,14 +21,14 @@ celery_app = Celery('tasks', broker='redis://localhost:6379/0')
 
 @celery_app.task(name='factura_log')
 def registrar_log(id_factura, fecha_factura):
-    pass
+    print(f"Log registrado para la creación de la factura {id_factura} en {fecha_factura}")
 
 factura_schema = FacturaSchema()
 factura_single_schema = FacturaSchema()
 
 class VistaRealizarFactura(Resource):
     def post(self, id):
-        response = requests.get(f'http://localhost:5000/usuario/{id}')
+        response = requests.get(f'http://localhost:5060/usuario/{id}')
         
         if response.status_code == 404:
             return response.json(), 404
@@ -67,6 +67,24 @@ class VistaRealizarFactura(Resource):
 
 api.add_resource(VistaRealizarFactura, '/realizar_factura/<int:id>')
 
+class VistaConsultarFactura(Resource):
+    def get(self, id):
+        factura = Factura.query.get(id)
+        if not factura:
+            return {'message': 'Factura no encontrada'}, 404
+        factura_json = {
+            'id': factura.id,
+            'usuario_id': factura.usuario_id,
+            'nombre': factura.nombre,
+            'monto': factura.monto,
+            'detalle': factura.detalle,
+            'estado': factura.estado,
+            'fecha': factura.fecha.strftime('%Y-%m-%d %H:%M:%S')
+        }
+        return jsonify(factura_json)
+
+api.add_resource(VistaConsultarFactura, '/factura/<int:id>')
+
 if __name__ == '__main__':
-    app.run(debug=True, port=5001)
+    app.run(debug=True, port=5061)
             
