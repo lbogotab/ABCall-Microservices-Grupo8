@@ -25,7 +25,7 @@ services:
     ports:
       - "5001:5001"
 
-  log_factura:
+  log-factura:
     volumes:
       - ./microservicio_log_factura/:/mnt/
     build: ./microservicio_log_factura
@@ -73,7 +73,9 @@ services:
     build: ./monitor
 
   log_errores:
+    volumes:
+      - ./logs/:/logs
     build: ./log_errores
-    command: celery -A tasks worker --loglevel=info -Q error_log
+    command: celery -A tasks worker --loglevel=info -Q status_log
     depends_on:
       - redis

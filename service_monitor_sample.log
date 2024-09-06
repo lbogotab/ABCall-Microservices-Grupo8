@@ -1,0 +1,844 @@
+2024-09-05 21:58:21,271 - INFO - log-factura - OK
+2024-09-05 21:58:21,271 - INFO - download-file - OK
+2024-09-05 21:58:21,272 - INFO - consulta-factura - OK
+2024-09-05 21:58:21,272 - INFO - realizar-factura - OK
+2024-09-05 21:58:26,302 - INFO - consulta-factura - OK
+2024-09-05 21:58:26,303 - INFO - log-factura - OK
+2024-09-05 21:58:26,304 - INFO - download-file - OK
+2024-09-05 21:58:26,306 - INFO - realizar-factura - OK
+2024-09-05 21:58:31,320 - INFO - download-file - OK
+2024-09-05 21:58:31,321 - INFO - consulta-factura - OK
+2024-09-05 21:58:31,322 - INFO - log-factura - OK
+2024-09-05 21:58:31,324 - INFO - realizar-factura - OK
+2024-09-05 21:58:36,375 - INFO - consulta-factura - OK
+2024-09-05 21:58:36,378 - INFO - download-file - OK
+2024-09-05 21:58:36,380 - INFO - log-factura - OK
+2024-09-05 21:58:36,381 - INFO - realizar-factura - OK
+2024-09-05 21:58:41,396 - INFO - download-file - OK
+2024-09-05 21:58:41,397 - INFO - realizar-factura - OK
+2024-09-05 21:58:41,397 - INFO - log-factura - OK
+2024-09-05 21:58:41,397 - INFO - consulta-factura - OK
+2024-09-05 21:58:46,422 - INFO - consulta-factura - OK
+2024-09-05 21:58:46,423 - INFO - log-factura - OK
+2024-09-05 21:58:46,423 - INFO - realizar-factura - OK
+2024-09-05 21:58:46,424 - INFO - download-file - OK
+2024-09-05 21:58:51,437 - INFO - download-file - OK
+2024-09-05 21:58:51,439 - INFO - consulta-factura - OK
+2024-09-05 21:58:51,440 - INFO - log-factura - OK
+2024-09-05 21:58:51,441 - INFO - realizar-factura - OK
+2024-09-05 21:58:56,461 - INFO - download-file - OK
+2024-09-05 21:58:56,462 - INFO - consulta-factura - OK
+2024-09-05 21:58:56,463 - INFO - log-factura - OK
+2024-09-05 21:58:56,464 - INFO - realizar-factura - OK
+2024-09-05 21:59:01,498 - INFO - consulta-factura - OK
+2024-09-05 21:59:01,499 - INFO - download-file - OK
+2024-09-05 21:59:01,499 - INFO - realizar-factura - OK
+2024-09-05 21:59:04,489 - ERROR - log-factura - FAIL with status code 504
+2024-09-05 21:59:09,702 - INFO - consulta-factura - OK
+2024-09-05 21:59:09,704 - INFO - download-file - OK
+2024-09-05 21:59:09,708 - INFO - realizar-factura - OK
+2024-09-05 21:59:12,684 - ERROR - log-factura - FAIL with status code 504
+2024-09-05 21:59:17,765 - INFO - download-file - OK
+2024-09-05 21:59:17,766 - INFO - realizar-factura - OK
+2024-09-05 21:59:17,766 - INFO - consulta-factura - OK
+2024-09-05 21:59:20,784 - ERROR - log-factura - FAIL with status code 504
+2024-09-05 21:59:25,866 - INFO - consulta-factura - OK
+2024-09-05 21:59:25,867 - INFO - download-file - OK
+2024-09-05 21:59:25,867 - INFO - realizar-factura - OK
+2024-09-05 21:59:25,868 - INFO - log-factura - OK
+2024-09-05 21:59:30,893 - INFO - download-file - OK
+2024-09-05 21:59:30,894 - INFO - consulta-factura - OK
+2024-09-05 21:59:30,895 - INFO - realizar-factura - OK
+2024-09-05 21:59:30,897 - INFO - log-factura - OK
+2024-09-05 21:59:35,934 - INFO - download-file - OK
+2024-09-05 21:59:35,935 - INFO - log-factura - OK
+2024-09-05 21:59:35,947 - INFO - realizar-factura - OK
+2024-09-05 21:59:38,922 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 21:59:43,964 - INFO - download-file - OK
+2024-09-05 21:59:43,966 - INFO - log-factura - OK
+2024-09-05 21:59:43,967 - INFO - realizar-factura - OK
+2024-09-05 21:59:46,959 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 21:59:52,014 - INFO - download-file - OK
+2024-09-05 21:59:52,016 - INFO - log-factura - OK
+2024-09-05 21:59:52,018 - INFO - realizar-factura - OK
+2024-09-05 21:59:54,996 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:00:00,032 - INFO - download-file - OK
+2024-09-05 22:00:00,050 - INFO - consulta-factura - OK
+2024-09-05 22:00:00,082 - INFO - realizar-factura - OK
+2024-09-05 22:00:00,087 - INFO - log-factura - OK
+2024-09-05 22:00:05,147 - INFO - consulta-factura - OK
+2024-09-05 22:00:05,152 - INFO - log-factura - OK
+2024-09-05 22:00:05,154 - INFO - download-file - OK
+2024-09-05 22:00:05,156 - INFO - realizar-factura - OK
+2024-09-05 22:00:10,168 - INFO - download-file - OK
+2024-09-05 22:00:10,169 - INFO - realizar-factura - OK
+2024-09-05 22:00:10,172 - INFO - consulta-factura - OK
+2024-09-05 22:00:10,192 - ERROR - log-factura - FAIL with status code 502
+2024-09-05 22:00:15,260 - INFO - realizar-factura - OK
+2024-09-05 22:00:15,261 - INFO - download-file - OK
+2024-09-05 22:00:15,264 - INFO - consulta-factura - OK
+2024-09-05 22:00:18,232 - ERROR - log-factura - FAIL with status code 504
+2024-09-05 22:00:23,312 - INFO - download-file - OK
+2024-09-05 22:00:23,314 - INFO - consulta-factura - OK
+2024-09-05 22:00:23,316 - INFO - realizar-factura - OK
+2024-09-05 22:00:26,315 - ERROR - log-factura - FAIL with status code 504
+2024-09-05 22:00:31,445 - INFO - consulta-factura - OK
+2024-09-05 22:00:31,447 - INFO - download-file - OK
+2024-09-05 22:00:31,469 - ERROR - log-factura - FAIL with status code 502
+2024-09-05 22:00:31,473 - INFO - realizar-factura - OK
+2024-09-05 22:00:36,507 - INFO - download-file - OK
+2024-09-05 22:00:36,520 - INFO - consulta-factura - OK
+2024-09-05 22:00:36,524 - INFO - realizar-factura - OK
+2024-09-05 22:00:36,526 - INFO - log-factura - OK
+2024-09-05 22:00:41,576 - INFO - consulta-factura - OK
+2024-09-05 22:00:41,578 - INFO - realizar-factura - OK
+2024-09-05 22:00:41,580 - INFO - download-file - OK
+2024-09-05 22:00:41,582 - INFO - log-factura - OK
+2024-09-05 22:00:46,588 - INFO - download-file - OK
+2024-09-05 22:00:46,588 - INFO - consulta-factura - OK
+2024-09-05 22:00:46,589 - INFO - log-factura - OK
+2024-09-05 22:00:46,765 - ERROR - realizar-factura - FAIL with status code 502
+2024-09-05 22:00:51,806 - INFO - download-file - OK
+2024-09-05 22:00:51,807 - INFO - log-factura - OK
+2024-09-05 22:00:51,807 - INFO - consulta-factura - OK
+2024-09-05 22:00:54,804 - ERROR - realizar-factura - FAIL with status code 504
+2024-09-05 22:00:59,843 - INFO - download-file - OK
+2024-09-05 22:00:59,844 - INFO - log-factura - OK
+2024-09-05 22:00:59,845 - INFO - consulta-factura - OK
+2024-09-05 22:01:02,833 - ERROR - realizar-factura - FAIL with status code 504
+2024-09-05 22:01:07,849 - INFO - download-file - OK
+2024-09-05 22:01:07,850 - ERROR - realizar-factura - FAIL with status code 502
+2024-09-05 22:01:07,851 - INFO - consulta-factura - OK
+2024-09-05 22:01:07,851 - INFO - log-factura - OK
+2024-09-05 22:01:12,904 - INFO - download-file - OK
+2024-09-05 22:01:12,907 - INFO - consulta-factura - OK
+2024-09-05 22:01:12,913 - INFO - log-factura - OK
+2024-09-05 22:01:12,923 - INFO - realizar-factura - OK
+2024-09-05 22:01:18,129 - INFO - consulta-factura - OK
+2024-09-05 22:01:18,130 - INFO - download-file - OK
+2024-09-05 22:01:18,131 - INFO - realizar-factura - OK
+2024-09-05 22:01:18,131 - INFO - log-factura - OK
+2024-09-05 22:01:23,180 - ERROR - download-file - FAIL with status code 502
+2024-09-05 22:01:23,185 - INFO - log-factura - OK
+2024-09-05 22:01:23,199 - INFO - realizar-factura - OK
+2024-09-05 22:01:23,201 - INFO - consulta-factura - OK
+2024-09-05 22:01:28,281 - INFO - realizar-factura - OK
+2024-09-05 22:01:28,282 - INFO - consulta-factura - OK
+2024-09-05 22:01:28,282 - INFO - log-factura - OK
+2024-09-05 22:01:31,269 - ERROR - download-file - FAIL with status code 504
+2024-09-05 22:01:36,318 - INFO - log-factura - OK
+2024-09-05 22:01:36,319 - INFO - realizar-factura - OK
+2024-09-05 22:01:36,320 - INFO - consulta-factura - OK
+2024-09-05 22:01:39,301 - ERROR - download-file - FAIL with status code 504
+2024-09-05 22:01:44,350 - INFO - download-file - OK
+2024-09-05 22:01:44,352 - INFO - consulta-factura - OK
+2024-09-05 22:01:44,354 - INFO - realizar-factura - OK
+2024-09-05 22:01:44,356 - INFO - log-factura - OK
+2024-09-05 22:01:49,378 - INFO - log-factura - OK
+2024-09-05 22:01:49,380 - INFO - consulta-factura - OK
+2024-09-05 22:01:49,381 - INFO - realizar-factura - OK
+2024-09-05 22:01:49,384 - INFO - download-file - OK
+2024-09-05 22:01:54,410 - INFO - download-file - OK
+2024-09-05 22:01:54,415 - INFO - log-factura - OK
+2024-09-05 22:01:54,419 - INFO - consulta-factura - OK
+2024-09-05 22:01:54,420 - INFO - realizar-factura - OK
+2024-09-05 22:01:59,430 - INFO - realizar-factura - OK
+2024-09-05 22:01:59,430 - INFO - log-factura - OK
+2024-09-05 22:01:59,434 - INFO - download-file - OK
+2024-09-05 22:02:02,429 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:02:07,451 - INFO - download-file - OK
+2024-09-05 22:02:07,456 - INFO - log-factura - OK
+2024-09-05 22:02:07,456 - INFO - realizar-factura - OK
+2024-09-05 22:02:10,456 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:02:15,487 - INFO - download-file - OK
+2024-09-05 22:02:15,490 - INFO - realizar-factura - OK
+2024-09-05 22:02:15,491 - INFO - log-factura - OK
+2024-09-05 22:02:18,482 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:02:23,525 - INFO - consulta-factura - OK
+2024-09-05 22:02:23,527 - INFO - log-factura - OK
+2024-09-05 22:02:23,528 - INFO - realizar-factura - OK
+2024-09-05 22:02:23,531 - INFO - download-file - OK
+2024-09-05 22:02:28,545 - INFO - consulta-factura - OK
+2024-09-05 22:02:28,547 - INFO - log-factura - OK
+2024-09-05 22:02:28,547 - INFO - realizar-factura - OK
+2024-09-05 22:02:28,548 - INFO - download-file - OK
+2024-09-05 22:02:33,569 - INFO - log-factura - OK
+2024-09-05 22:02:33,570 - INFO - realizar-factura - OK
+2024-09-05 22:02:33,570 - INFO - consulta-factura - OK
+2024-09-05 22:02:33,570 - INFO - download-file - OK
+2024-09-05 22:02:38,617 - INFO - download-file - OK
+2024-09-05 22:02:38,629 - INFO - consulta-factura - OK
+2024-09-05 22:02:38,630 - INFO - log-factura - OK
+2024-09-05 22:02:41,588 - ERROR - realizar-factura - FAIL with status code 504
+2024-09-05 22:02:46,630 - INFO - consulta-factura - OK
+2024-09-05 22:02:46,637 - INFO - log-factura - OK
+2024-09-05 22:02:46,640 - INFO - download-file - OK
+2024-09-05 22:02:49,625 - ERROR - realizar-factura - FAIL with status code 504
+2024-09-05 22:02:54,653 - INFO - download-file - OK
+2024-09-05 22:02:54,752 - INFO - consulta-factura - OK
+2024-09-05 22:02:54,753 - INFO - log-factura - OK
+2024-09-05 22:02:57,661 - ERROR - realizar-factura - FAIL with status code 504
+2024-09-05 22:03:02,714 - INFO - consulta-factura - OK
+2024-09-05 22:03:02,715 - INFO - download-file - OK
+2024-09-05 22:03:02,716 - INFO - log-factura - OK
+2024-09-05 22:03:02,723 - INFO - realizar-factura - OK
+2024-09-05 22:03:07,742 - INFO - consulta-factura - OK
+2024-09-05 22:03:07,747 - INFO - download-file - OK
+2024-09-05 22:03:07,748 - INFO - log-factura - OK
+2024-09-05 22:03:07,748 - INFO - realizar-factura - OK
+2024-09-05 22:03:12,778 - INFO - consulta-factura - OK
+2024-09-05 22:03:12,779 - INFO - log-factura - OK
+2024-09-05 22:03:12,780 - INFO - realizar-factura - OK
+2024-09-05 22:03:15,778 - ERROR - download-file - FAIL with status code 504
+2024-09-05 22:03:20,820 - INFO - realizar-factura - OK
+2024-09-05 22:03:20,820 - INFO - log-factura - OK
+2024-09-05 22:03:20,821 - INFO - consulta-factura - OK
+2024-09-05 22:03:23,811 - ERROR - download-file - FAIL with status code 504
+2024-09-05 22:03:28,857 - INFO - log-factura - OK
+2024-09-05 22:03:28,858 - INFO - consulta-factura - OK
+2024-09-05 22:03:28,858 - INFO - realizar-factura - OK
+2024-09-05 22:03:31,849 - ERROR - download-file - FAIL with status code 504
+2024-09-05 22:03:36,899 - INFO - download-file - OK
+2024-09-05 22:03:36,902 - INFO - consulta-factura - OK
+2024-09-05 22:03:36,905 - INFO - realizar-factura - OK
+2024-09-05 22:03:36,907 - INFO - log-factura - OK
+2024-09-05 22:03:41,929 - INFO - consulta-factura - OK
+2024-09-05 22:03:41,931 - INFO - realizar-factura - OK
+2024-09-05 22:03:41,932 - INFO - download-file - OK
+2024-09-05 22:03:41,933 - INFO - log-factura - OK
+2024-09-05 22:03:46,971 - INFO - download-file - OK
+2024-09-05 22:03:46,972 - INFO - log-factura - OK
+2024-09-05 22:03:46,973 - INFO - realizar-factura - OK
+2024-09-05 22:03:46,974 - INFO - consulta-factura - OK
+2024-09-05 22:03:52,009 - INFO - consulta-factura - OK
+2024-09-05 22:03:52,013 - INFO - download-file - OK
+2024-09-05 22:03:52,016 - INFO - realizar-factura - OK
+2024-09-05 22:03:55,002 - ERROR - log-factura - FAIL with status code 504
+2024-09-05 22:04:00,024 - INFO - consulta-factura - OK
+2024-09-05 22:04:00,025 - INFO - realizar-factura - OK
+2024-09-05 22:04:00,026 - INFO - download-file - OK
+2024-09-05 22:04:03,039 - ERROR - log-factura - FAIL with status code 504
+2024-09-05 22:04:08,074 - INFO - consulta-factura - OK
+2024-09-05 22:04:08,074 - INFO - realizar-factura - OK
+2024-09-05 22:04:08,074 - INFO - download-file - OK
+2024-09-05 22:04:09,109 - INFO - log-factura - OK
+2024-09-05 22:04:14,261 - INFO - log-factura - OK
+2024-09-05 22:04:14,287 - INFO - realizar-factura - OK
+2024-09-05 22:04:14,297 - INFO - consulta-factura - OK
+2024-09-05 22:04:14,285 - INFO - download-file - OK
+2024-09-05 22:04:19,390 - INFO - download-file - OK
+2024-09-05 22:04:19,391 - INFO - realizar-factura - OK
+2024-09-05 22:04:19,392 - INFO - consulta-factura - OK
+2024-09-05 22:04:19,392 - INFO - log-factura - OK
+2024-09-05 22:04:24,418 - INFO - consulta-factura - OK
+2024-09-05 22:04:24,419 - INFO - download-file - OK
+2024-09-05 22:04:24,419 - INFO - realizar-factura - OK
+2024-09-05 22:04:27,421 - ERROR - log-factura - FAIL with status code 504
+2024-09-05 22:04:32,442 - INFO - consulta-factura - OK
+2024-09-05 22:04:32,443 - INFO - download-file - OK
+2024-09-05 22:04:32,445 - INFO - realizar-factura - OK
+2024-09-05 22:04:35,451 - ERROR - log-factura - FAIL with status code 504
+2024-09-05 22:04:40,494 - INFO - consulta-factura - OK
+2024-09-05 22:04:40,496 - INFO - realizar-factura - OK
+2024-09-05 22:04:40,496 - INFO - download-file - OK
+2024-09-05 22:04:43,482 - ERROR - log-factura - FAIL with status code 504
+2024-09-05 22:04:48,654 - INFO - download-file - OK
+2024-09-05 22:04:48,656 - INFO - consulta-factura - OK
+2024-09-05 22:04:48,659 - INFO - log-factura - OK
+2024-09-05 22:04:48,660 - INFO - realizar-factura - OK
+2024-09-05 22:04:53,686 - INFO - download-file - OK
+2024-09-05 22:04:53,688 - INFO - consulta-factura - OK
+2024-09-05 22:04:53,692 - INFO - realizar-factura - OK
+2024-09-05 22:04:53,693 - INFO - log-factura - OK
+2024-09-05 22:04:58,712 - INFO - realizar-factura - OK
+2024-09-05 22:04:58,713 - INFO - download-file - OK
+2024-09-05 22:04:58,715 - INFO - log-factura - OK
+2024-09-05 22:04:58,716 - INFO - consulta-factura - OK
+2024-09-05 22:05:03,785 - INFO - download-file - OK
+2024-09-05 22:05:03,786 - INFO - realizar-factura - OK
+2024-09-05 22:05:03,789 - INFO - log-factura - OK
+2024-09-05 22:05:06,759 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:05:11,837 - INFO - download-file - OK
+2024-09-05 22:05:11,838 - INFO - log-factura - OK
+2024-09-05 22:05:11,838 - INFO - realizar-factura - OK
+2024-09-05 22:05:14,807 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:05:19,830 - INFO - log-factura - OK
+2024-09-05 22:05:19,832 - INFO - download-file - OK
+2024-09-05 22:05:19,836 - INFO - realizar-factura - OK
+2024-09-05 22:05:20,856 - INFO - consulta-factura - OK
+2024-09-05 22:05:25,877 - INFO - consulta-factura - OK
+2024-09-05 22:05:25,882 - INFO - log-factura - OK
+2024-09-05 22:05:25,884 - INFO - download-file - OK
+2024-09-05 22:05:25,889 - INFO - realizar-factura - OK
+2024-09-05 22:05:30,922 - INFO - consulta-factura - OK
+2024-09-05 22:05:30,925 - INFO - realizar-factura - OK
+2024-09-05 22:05:30,926 - INFO - log-factura - OK
+2024-09-05 22:05:30,926 - INFO - download-file - OK
+2024-09-05 22:05:35,937 - INFO - realizar-factura - OK
+2024-09-05 22:05:35,937 - INFO - log-factura - OK
+2024-09-05 22:05:35,938 - INFO - consulta-factura - OK
+2024-09-05 22:05:38,938 - ERROR - download-file - FAIL with status code 504
+2024-09-05 22:05:43,986 - INFO - log-factura - OK
+2024-09-05 22:05:43,987 - INFO - realizar-factura - OK
+2024-09-05 22:05:43,988 - INFO - consulta-factura - OK
+2024-09-05 22:05:46,974 - ERROR - download-file - FAIL with status code 504
+2024-09-05 22:05:52,021 - INFO - consulta-factura - OK
+2024-09-05 22:05:52,023 - INFO - realizar-factura - OK
+2024-09-05 22:05:52,024 - INFO - log-factura - OK
+2024-09-05 22:05:55,014 - ERROR - download-file - FAIL with status code 504
+2024-09-05 22:06:00,131 - INFO - consulta-factura - OK
+2024-09-05 22:06:00,136 - INFO - download-file - OK
+2024-09-05 22:06:00,138 - INFO - log-factura - OK
+2024-09-05 22:06:00,145 - INFO - realizar-factura - OK
+2024-09-05 22:06:05,173 - INFO - log-factura - OK
+2024-09-05 22:06:05,174 - INFO - download-file - OK
+2024-09-05 22:06:05,175 - INFO - realizar-factura - OK
+2024-09-05 22:06:05,177 - INFO - consulta-factura - OK
+2024-09-05 22:06:10,229 - INFO - download-file - OK
+2024-09-05 22:06:10,230 - INFO - consulta-factura - OK
+2024-09-05 22:06:10,230 - INFO - realizar-factura - OK
+2024-09-05 22:06:10,231 - INFO - log-factura - OK
+2024-09-05 22:06:15,280 - INFO - log-factura - OK
+2024-09-05 22:06:15,282 - INFO - download-file - OK
+2024-09-05 22:06:15,283 - INFO - realizar-factura - OK
+2024-09-05 22:06:18,272 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:06:23,332 - INFO - realizar-factura - OK
+2024-09-05 22:06:23,333 - INFO - log-factura - OK
+2024-09-05 22:06:23,333 - INFO - download-file - OK
+2024-09-05 22:06:26,315 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:06:31,337 - INFO - download-file - OK
+2024-09-05 22:06:31,338 - INFO - log-factura - OK
+2024-09-05 22:06:31,338 - INFO - realizar-factura - OK
+2024-09-05 22:06:34,346 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:06:39,428 - INFO - download-file - OK
+2024-09-05 22:06:39,432 - INFO - consulta-factura - OK
+2024-09-05 22:06:39,433 - INFO - log-factura - OK
+2024-09-05 22:06:39,434 - INFO - realizar-factura - OK
+2024-09-05 22:06:44,480 - INFO - download-file - OK
+2024-09-05 22:06:44,481 - INFO - log-factura - OK
+2024-09-05 22:06:44,481 - INFO - realizar-factura - OK
+2024-09-05 22:06:44,481 - INFO - consulta-factura - OK
+2024-09-05 22:06:49,529 - INFO - log-factura - OK
+2024-09-05 22:06:49,529 - INFO - realizar-factura - OK
+2024-09-05 22:06:49,530 - INFO - download-file - OK
+2024-09-05 22:06:52,510 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:06:57,576 - INFO - download-file - OK
+2024-09-05 22:06:57,577 - INFO - log-factura - OK
+2024-09-05 22:06:57,579 - INFO - realizar-factura - OK
+2024-09-05 22:07:00,551 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:07:05,587 - INFO - realizar-factura - OK
+2024-09-05 22:07:05,588 - INFO - log-factura - OK
+2024-09-05 22:07:05,589 - INFO - download-file - OK
+2024-09-05 22:07:08,576 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:07:13,630 - INFO - download-file - OK
+2024-09-05 22:07:13,631 - INFO - log-factura - OK
+2024-09-05 22:07:13,633 - INFO - realizar-factura - OK
+2024-09-05 22:07:13,634 - INFO - consulta-factura - OK
+2024-09-05 22:07:18,643 - INFO - log-factura - OK
+2024-09-05 22:07:18,644 - INFO - download-file - OK
+2024-09-05 22:07:18,646 - INFO - realizar-factura - OK
+2024-09-05 22:07:18,646 - INFO - consulta-factura - OK
+2024-09-05 22:07:23,692 - INFO - download-file - OK
+2024-09-05 22:07:23,694 - INFO - log-factura - OK
+2024-09-05 22:07:23,694 - INFO - consulta-factura - OK
+2024-09-05 22:07:23,695 - INFO - realizar-factura - OK
+2024-09-05 22:07:28,715 - INFO - log-factura - OK
+2024-09-05 22:07:28,716 - INFO - download-file - OK
+2024-09-05 22:07:28,717 - INFO - realizar-factura - OK
+2024-09-05 22:07:31,742 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:07:36,773 - INFO - download-file - OK
+2024-09-05 22:07:36,773 - INFO - log-factura - OK
+2024-09-05 22:07:36,773 - INFO - realizar-factura - OK
+2024-09-05 22:07:39,769 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:07:44,800 - INFO - log-factura - OK
+2024-09-05 22:07:44,803 - INFO - realizar-factura - OK
+2024-09-05 22:07:44,816 - INFO - download-file - OK
+2024-09-05 22:07:45,829 - INFO - consulta-factura - OK
+2024-09-05 22:07:50,924 - INFO - log-factura - OK
+2024-09-05 22:07:50,926 - INFO - realizar-factura - OK
+2024-09-05 22:07:50,927 - INFO - download-file - OK
+2024-09-05 22:07:50,927 - INFO - consulta-factura - OK
+2024-09-05 22:07:55,946 - INFO - download-file - OK
+2024-09-05 22:07:55,948 - INFO - log-factura - OK
+2024-09-05 22:07:55,949 - INFO - consulta-factura - OK
+2024-09-05 22:07:55,950 - INFO - realizar-factura - OK
+2024-09-05 22:08:00,993 - INFO - download-file - OK
+2024-09-05 22:08:00,994 - INFO - log-factura - OK
+2024-09-05 22:08:00,995 - INFO - realizar-factura - OK
+2024-09-05 22:08:03,970 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:08:09,047 - INFO - download-file - OK
+2024-09-05 22:08:09,048 - INFO - realizar-factura - OK
+2024-09-05 22:08:09,048 - INFO - log-factura - OK
+2024-09-05 22:08:12,038 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:08:17,091 - INFO - download-file - OK
+2024-09-05 22:08:17,094 - INFO - log-factura - OK
+2024-09-05 22:08:17,095 - INFO - realizar-factura - OK
+2024-09-05 22:08:20,084 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:08:25,153 - INFO - download-file - OK
+2024-09-05 22:08:25,155 - INFO - log-factura - OK
+2024-09-05 22:08:25,156 - INFO - realizar-factura - OK
+2024-09-05 22:08:25,157 - INFO - consulta-factura - OK
+2024-09-05 22:08:30,229 - INFO - download-file - OK
+2024-09-05 22:08:30,300 - INFO - log-factura - OK
+2024-09-05 22:08:30,301 - INFO - realizar-factura - OK
+2024-09-05 22:08:30,302 - INFO - consulta-factura - OK
+2024-09-05 22:08:35,344 - INFO - consulta-factura - OK
+2024-09-05 22:08:35,345 - INFO - realizar-factura - OK
+2024-09-05 22:08:35,345 - INFO - download-file - OK
+2024-09-05 22:08:35,348 - INFO - log-factura - OK
+2024-09-05 22:08:40,381 - INFO - consulta-factura - OK
+2024-09-05 22:08:40,389 - INFO - log-factura - OK
+2024-09-05 22:08:40,391 - INFO - download-file - OK
+2024-09-05 22:08:43,368 - ERROR - realizar-factura - FAIL with status code 504
+2024-09-05 22:08:48,398 - INFO - consulta-factura - OK
+2024-09-05 22:08:48,399 - INFO - log-factura - OK
+2024-09-05 22:08:48,400 - INFO - download-file - OK
+2024-09-05 22:08:51,394 - ERROR - realizar-factura - FAIL with status code 504
+2024-09-05 22:08:56,432 - INFO - download-file - OK
+2024-09-05 22:08:56,433 - INFO - log-factura - OK
+2024-09-05 22:08:56,434 - INFO - consulta-factura - OK
+2024-09-05 22:08:59,442 - ERROR - realizar-factura - FAIL with status code 504
+2024-09-05 22:09:04,496 - INFO - download-file - OK
+2024-09-05 22:09:04,498 - INFO - log-factura - OK
+2024-09-05 22:09:04,499 - INFO - consulta-factura - OK
+2024-09-05 22:09:04,504 - INFO - realizar-factura - OK
+2024-09-05 22:09:09,553 - INFO - consulta-factura - OK
+2024-09-05 22:09:09,555 - INFO - log-factura - OK
+2024-09-05 22:09:09,556 - INFO - download-file - OK
+2024-09-05 22:09:09,560 - INFO - realizar-factura - OK
+2024-09-05 22:09:14,597 - INFO - download-file - OK
+2024-09-05 22:09:14,597 - INFO - realizar-factura - OK
+2024-09-05 22:09:14,598 - INFO - log-factura - OK
+2024-09-05 22:09:17,587 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:09:22,619 - INFO - download-file - OK
+2024-09-05 22:09:22,619 - INFO - log-factura - OK
+2024-09-05 22:09:22,620 - INFO - realizar-factura - OK
+2024-09-05 22:09:25,619 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:09:30,653 - INFO - log-factura - OK
+2024-09-05 22:09:30,658 - INFO - download-file - OK
+2024-09-05 22:09:30,659 - INFO - realizar-factura - OK
+2024-09-05 22:09:33,647 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:09:38,684 - INFO - consulta-factura - OK
+2024-09-05 22:09:38,693 - INFO - download-file - OK
+2024-09-05 22:09:38,698 - INFO - log-factura - OK
+2024-09-05 22:09:38,705 - INFO - realizar-factura - OK
+2024-09-05 22:09:43,760 - INFO - consulta-factura - OK
+2024-09-05 22:09:43,783 - INFO - download-file - OK
+2024-09-05 22:09:43,818 - INFO - realizar-factura - OK
+2024-09-05 22:09:43,825 - INFO - log-factura - OK
+2024-09-05 22:09:48,892 - INFO - consulta-factura - OK
+2024-09-05 22:09:48,893 - INFO - log-factura - OK
+2024-09-05 22:09:48,894 - INFO - download-file - OK
+2024-09-05 22:09:48,894 - INFO - realizar-factura - OK
+2024-09-05 22:09:53,958 - INFO - consulta-factura - OK
+2024-09-05 22:09:53,962 - INFO - download-file - OK
+2024-09-05 22:09:53,976 - INFO - realizar-factura - OK
+2024-09-05 22:09:56,939 - ERROR - log-factura - FAIL with status code 504
+2024-09-05 22:10:01,970 - INFO - consulta-factura - OK
+2024-09-05 22:10:01,973 - INFO - realizar-factura - OK
+2024-09-05 22:10:01,974 - INFO - download-file - OK
+2024-09-05 22:10:04,966 - ERROR - log-factura - FAIL with status code 504
+2024-09-05 22:10:10,035 - ERROR - log-factura - FAIL with status code 502
+2024-09-05 22:10:10,039 - INFO - consulta-factura - OK
+2024-09-05 22:10:10,047 - INFO - download-file - OK
+2024-09-05 22:10:10,048 - INFO - realizar-factura - OK
+2024-09-05 22:10:15,098 - INFO - consulta-factura - OK
+2024-09-05 22:10:15,100 - INFO - realizar-factura - OK
+2024-09-05 22:10:15,101 - INFO - download-file - OK
+2024-09-05 22:10:15,107 - INFO - log-factura - OK
+2024-09-05 22:10:20,186 - INFO - consulta-factura - OK
+2024-09-05 22:10:20,191 - INFO - log-factura - OK
+2024-09-05 22:10:20,192 - INFO - download-file - OK
+2024-09-05 22:10:20,193 - INFO - realizar-factura - OK
+2024-09-05 22:10:25,214 - INFO - consulta-factura - OK
+2024-09-05 22:10:25,216 - INFO - realizar-factura - OK
+2024-09-05 22:10:25,218 - ERROR - download-file - FAIL with status code 502
+2024-09-05 22:10:25,218 - INFO - log-factura - OK
+2024-09-05 22:10:30,286 - INFO - log-factura - OK
+2024-09-05 22:10:30,287 - INFO - consulta-factura - OK
+2024-09-05 22:10:30,289 - INFO - realizar-factura - OK
+2024-09-05 22:10:33,293 - ERROR - download-file - FAIL with status code 504
+2024-09-05 22:10:38,336 - INFO - consulta-factura - OK
+2024-09-05 22:10:38,338 - INFO - log-factura - OK
+2024-09-05 22:10:38,340 - INFO - realizar-factura - OK
+2024-09-05 22:10:41,334 - ERROR - download-file - FAIL with status code 504
+2024-09-05 22:10:46,359 - INFO - consulta-factura - OK
+2024-09-05 22:10:46,360 - INFO - download-file - OK
+2024-09-05 22:10:46,361 - INFO - log-factura - OK
+2024-09-05 22:10:46,361 - INFO - realizar-factura - OK
+2024-09-05 22:10:51,412 - INFO - consulta-factura - OK
+2024-09-05 22:10:51,425 - INFO - log-factura - OK
+2024-09-05 22:10:51,453 - INFO - realizar-factura - OK
+2024-09-05 22:10:51,459 - INFO - download-file - OK
+2024-09-05 22:10:56,481 - INFO - download-file - OK
+2024-09-05 22:10:56,484 - INFO - consulta-factura - OK
+2024-09-05 22:10:56,485 - INFO - realizar-factura - OK
+2024-09-05 22:10:56,486 - INFO - log-factura - OK
+2024-09-05 22:11:01,508 - INFO - download-file - OK
+2024-09-05 22:11:01,509 - INFO - log-factura - OK
+2024-09-05 22:11:01,528 - INFO - realizar-factura - OK
+2024-09-05 22:11:04,522 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:11:09,768 - INFO - log-factura - OK
+2024-09-05 22:11:09,763 - INFO - download-file - OK
+2024-09-05 22:11:09,776 - INFO - realizar-factura - OK
+2024-09-05 22:11:12,625 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:11:17,685 - INFO - download-file - OK
+2024-09-05 22:11:17,686 - INFO - log-factura - OK
+2024-09-05 22:11:17,688 - INFO - realizar-factura - OK
+2024-09-05 22:11:20,674 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:11:25,738 - INFO - download-file - OK
+2024-09-05 22:11:25,740 - INFO - realizar-factura - OK
+2024-09-05 22:11:25,742 - INFO - log-factura - OK
+2024-09-05 22:11:25,743 - INFO - consulta-factura - OK
+2024-09-05 22:11:30,823 - INFO - log-factura - OK
+2024-09-05 22:11:30,824 - INFO - consulta-factura - OK
+2024-09-05 22:11:30,830 - INFO - download-file - OK
+2024-09-05 22:11:30,839 - INFO - realizar-factura - OK
+2024-09-05 22:11:35,902 - INFO - download-file - OK
+2024-09-05 22:11:35,905 - INFO - log-factura - OK
+2024-09-05 22:11:35,906 - INFO - consulta-factura - OK
+2024-09-05 22:11:35,913 - INFO - realizar-factura - OK
+2024-09-05 22:11:40,933 - INFO - download-file - OK
+2024-09-05 22:11:40,934 - INFO - log-factura - OK
+2024-09-05 22:11:40,934 - INFO - consulta-factura - OK
+2024-09-05 22:11:43,926 - ERROR - realizar-factura - FAIL with status code 504
+2024-09-05 22:11:48,955 - INFO - log-factura - OK
+2024-09-05 22:11:48,960 - INFO - download-file - OK
+2024-09-05 22:11:48,961 - INFO - consulta-factura - OK
+2024-09-05 22:11:51,968 - ERROR - realizar-factura - FAIL with status code 504
+2024-09-05 22:11:57,008 - INFO - log-factura - OK
+2024-09-05 22:11:57,008 - INFO - download-file - OK
+2024-09-05 22:11:57,009 - INFO - consulta-factura - OK
+2024-09-05 22:12:00,003 - ERROR - realizar-factura - FAIL with status code 504
+2024-09-05 22:12:05,063 - INFO - download-file - OK
+2024-09-05 22:12:05,066 - INFO - consulta-factura - OK
+2024-09-05 22:12:05,071 - INFO - log-factura - OK
+2024-09-05 22:12:05,083 - INFO - realizar-factura - OK
+2024-09-05 22:12:10,151 - INFO - consulta-factura - OK
+2024-09-05 22:12:10,153 - INFO - download-file - OK
+2024-09-05 22:12:10,153 - INFO - log-factura - OK
+2024-09-05 22:12:10,157 - INFO - realizar-factura - OK
+2024-09-05 22:12:15,203 - INFO - consulta-factura - OK
+2024-09-05 22:12:15,204 - INFO - download-file - OK
+2024-09-05 22:12:15,204 - INFO - log-factura - OK
+2024-09-05 22:12:18,190 - ERROR - realizar-factura - FAIL with status code 504
+2024-09-05 22:12:23,230 - INFO - download-file - OK
+2024-09-05 22:12:23,231 - INFO - consulta-factura - OK
+2024-09-05 22:12:23,232 - INFO - log-factura - OK
+2024-09-05 22:12:26,227 - ERROR - realizar-factura - FAIL with status code 504
+2024-09-05 22:12:31,268 - INFO - consulta-factura - OK
+2024-09-05 22:12:31,269 - INFO - log-factura - OK
+2024-09-05 22:12:31,271 - INFO - download-file - OK
+2024-09-05 22:12:34,263 - ERROR - realizar-factura - FAIL with status code 504
+2024-09-05 22:12:39,300 - INFO - consulta-factura - OK
+2024-09-05 22:12:39,301 - INFO - log-factura - OK
+2024-09-05 22:12:39,304 - INFO - realizar-factura - OK
+2024-09-05 22:12:39,304 - INFO - download-file - OK
+2024-09-05 22:12:44,396 - INFO - download-file - OK
+2024-09-05 22:12:44,399 - INFO - log-factura - OK
+2024-09-05 22:12:44,394 - INFO - consulta-factura - OK
+2024-09-05 22:12:44,401 - INFO - realizar-factura - OK
+2024-09-05 22:12:49,421 - INFO - download-file - OK
+2024-09-05 22:12:49,422 - INFO - consulta-factura - OK
+2024-09-05 22:12:49,424 - INFO - log-factura - OK
+2024-09-05 22:12:49,425 - INFO - realizar-factura - OK
+2024-09-05 22:12:54,480 - INFO - consulta-factura - OK
+2024-09-05 22:12:54,482 - INFO - download-file - OK
+2024-09-05 22:12:54,484 - INFO - log-factura - OK
+2024-09-05 22:12:57,476 - ERROR - realizar-factura - FAIL with status code 504
+2024-09-05 22:13:02,615 - INFO - download-file - OK
+2024-09-05 22:13:02,616 - INFO - consulta-factura - OK
+2024-09-05 22:13:02,616 - INFO - log-factura - OK
+2024-09-05 22:13:05,603 - ERROR - realizar-factura - FAIL with status code 504
+2024-09-05 22:13:10,632 - ERROR - realizar-factura - FAIL with status code 502
+2024-09-05 22:13:10,644 - INFO - consulta-factura - OK
+2024-09-05 22:13:10,646 - INFO - log-factura - OK
+2024-09-05 22:13:10,646 - INFO - download-file - OK
+2024-09-05 22:13:15,684 - INFO - download-file - OK
+2024-09-05 22:13:15,686 - INFO - consulta-factura - OK
+2024-09-05 22:13:15,694 - INFO - log-factura - OK
+2024-09-05 22:13:15,700 - INFO - realizar-factura - OK
+2024-09-05 22:13:20,715 - INFO - download-file - OK
+2024-09-05 22:13:20,716 - INFO - consulta-factura - OK
+2024-09-05 22:13:20,717 - INFO - realizar-factura - OK
+2024-09-05 22:13:20,718 - INFO - log-factura - OK
+2024-09-05 22:13:25,755 - INFO - download-file - OK
+2024-09-05 22:13:25,756 - INFO - consulta-factura - OK
+2024-09-05 22:13:25,757 - INFO - log-factura - OK
+2024-09-05 22:13:25,759 - INFO - realizar-factura - OK
+2024-09-05 22:13:30,792 - INFO - download-file - OK
+2024-09-05 22:13:30,796 - INFO - consulta-factura - OK
+2024-09-05 22:13:30,800 - INFO - realizar-factura - OK
+2024-09-05 22:13:33,784 - ERROR - log-factura - FAIL with status code 504
+2024-09-05 22:13:38,815 - INFO - consulta-factura - OK
+2024-09-05 22:13:38,816 - INFO - download-file - OK
+2024-09-05 22:13:38,820 - INFO - realizar-factura - OK
+2024-09-05 22:13:41,816 - ERROR - log-factura - FAIL with status code 504
+2024-09-05 22:13:46,895 - INFO - realizar-factura - OK
+2024-09-05 22:13:46,897 - INFO - consulta-factura - OK
+2024-09-05 22:13:46,899 - INFO - download-file - OK
+2024-09-05 22:13:47,960 - INFO - log-factura - OK
+2024-09-05 22:13:52,990 - INFO - download-file - OK
+2024-09-05 22:13:52,991 - INFO - consulta-factura - OK
+2024-09-05 22:13:52,993 - INFO - realizar-factura - OK
+2024-09-05 22:13:52,998 - INFO - log-factura - OK
+2024-09-05 22:13:58,030 - INFO - log-factura - OK
+2024-09-05 22:13:58,031 - INFO - download-file - OK
+2024-09-05 22:13:58,031 - INFO - consulta-factura - OK
+2024-09-05 22:13:58,032 - INFO - realizar-factura - OK
+2024-09-05 22:14:03,054 - INFO - download-file - OK
+2024-09-05 22:14:03,055 - INFO - realizar-factura - OK
+2024-09-05 22:14:03,056 - INFO - log-factura - OK
+2024-09-05 22:14:06,066 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:14:11,127 - INFO - download-file - OK
+2024-09-05 22:14:11,129 - INFO - log-factura - OK
+2024-09-05 22:14:11,131 - INFO - realizar-factura - OK
+2024-09-05 22:14:14,110 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:14:19,156 - INFO - realizar-factura - OK
+2024-09-05 22:14:19,157 - INFO - log-factura - OK
+2024-09-05 22:14:19,157 - INFO - download-file - OK
+2024-09-05 22:14:22,144 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:14:27,201 - INFO - consulta-factura - OK
+2024-09-05 22:14:27,204 - INFO - download-file - OK
+2024-09-05 22:14:27,205 - INFO - log-factura - OK
+2024-09-05 22:14:27,208 - INFO - realizar-factura - OK
+2024-09-05 22:14:32,230 - INFO - log-factura - OK
+2024-09-05 22:14:32,232 - INFO - download-file - OK
+2024-09-05 22:14:32,233 - INFO - realizar-factura - OK
+2024-09-05 22:14:32,233 - INFO - consulta-factura - OK
+2024-09-05 22:14:37,259 - INFO - realizar-factura - OK
+2024-09-05 22:14:37,260 - INFO - log-factura - OK
+2024-09-05 22:14:37,260 - INFO - consulta-factura - OK
+2024-09-05 22:14:37,261 - INFO - download-file - OK
+2024-09-05 22:14:42,310 - INFO - download-file - OK
+2024-09-05 22:14:42,312 - INFO - log-factura - OK
+2024-09-05 22:14:42,313 - INFO - realizar-factura - OK
+2024-09-05 22:14:45,299 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:14:50,367 - INFO - download-file - OK
+2024-09-05 22:14:50,378 - INFO - log-factura - OK
+2024-09-05 22:14:50,381 - INFO - realizar-factura - OK
+2024-09-05 22:14:53,335 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:14:58,367 - INFO - realizar-factura - OK
+2024-09-05 22:14:58,367 - INFO - log-factura - OK
+2024-09-05 22:14:58,368 - INFO - download-file - OK
+2024-09-05 22:14:59,435 - INFO - consulta-factura - OK
+2024-09-05 22:15:04,469 - INFO - download-file - OK
+2024-09-05 22:15:04,480 - INFO - realizar-factura - OK
+2024-09-05 22:15:04,481 - INFO - log-factura - OK
+2024-09-05 22:15:04,485 - INFO - consulta-factura - OK
+2024-09-05 22:15:09,513 - INFO - consulta-factura - OK
+2024-09-05 22:15:09,516 - INFO - download-file - OK
+2024-09-05 22:15:09,547 - INFO - realizar-factura - OK
+2024-09-05 22:15:09,548 - INFO - log-factura - OK
+2024-09-05 22:15:14,558 - INFO - consulta-factura - OK
+2024-09-05 22:15:14,559 - INFO - log-factura - OK
+2024-09-05 22:15:14,560 - INFO - realizar-factura - OK
+2024-09-05 22:15:17,558 - ERROR - download-file - FAIL with status code 504
+2024-09-05 22:15:22,630 - INFO - consulta-factura - OK
+2024-09-05 22:15:22,631 - INFO - log-factura - OK
+2024-09-05 22:15:22,662 - INFO - realizar-factura - OK
+2024-09-05 22:15:25,686 - ERROR - download-file - FAIL with status code 504
+2024-09-05 22:15:30,768 - INFO - consulta-factura - OK
+2024-09-05 22:15:30,774 - INFO - realizar-factura - OK
+2024-09-05 22:15:30,777 - INFO - log-factura - OK
+2024-09-05 22:15:33,750 - ERROR - download-file - FAIL with status code 504
+2024-09-05 22:15:38,826 - INFO - consulta-factura - OK
+2024-09-05 22:15:38,827 - INFO - download-file - OK
+2024-09-05 22:15:38,828 - INFO - log-factura - OK
+2024-09-05 22:15:38,836 - INFO - realizar-factura - OK
+2024-09-05 22:15:43,852 - INFO - download-file - OK
+2024-09-05 22:15:43,852 - INFO - consulta-factura - OK
+2024-09-05 22:15:43,854 - INFO - log-factura - OK
+2024-09-05 22:15:43,856 - INFO - realizar-factura - OK
+2024-09-05 22:15:48,898 - INFO - download-file - OK
+2024-09-05 22:15:48,899 - INFO - consulta-factura - OK
+2024-09-05 22:15:48,900 - INFO - log-factura - OK
+2024-09-05 22:15:48,910 - INFO - realizar-factura - OK
+2024-09-05 22:15:53,951 - INFO - consulta-factura - OK
+2024-09-05 22:15:53,952 - INFO - log-factura - OK
+2024-09-05 22:15:53,952 - INFO - realizar-factura - OK
+2024-09-05 22:15:56,940 - ERROR - download-file - FAIL with status code 504
+2024-09-05 22:16:01,979 - INFO - consulta-factura - OK
+2024-09-05 22:16:01,980 - INFO - realizar-factura - OK
+2024-09-05 22:16:01,981 - INFO - log-factura - OK
+2024-09-05 22:16:04,972 - ERROR - download-file - FAIL with status code 504
+2024-09-05 22:16:10,048 - INFO - consulta-factura - OK
+2024-09-05 22:16:10,050 - INFO - realizar-factura - OK
+2024-09-05 22:16:10,050 - INFO - log-factura - OK
+2024-09-05 22:16:13,030 - ERROR - download-file - FAIL with status code 504
+2024-09-05 22:16:18,122 - INFO - consulta-factura - OK
+2024-09-05 22:16:18,133 - INFO - log-factura - OK
+2024-09-05 22:16:18,135 - INFO - download-file - OK
+2024-09-05 22:16:18,137 - INFO - realizar-factura - OK
+2024-09-05 22:16:23,159 - INFO - log-factura - OK
+2024-09-05 22:16:23,162 - INFO - download-file - OK
+2024-09-05 22:16:23,163 - INFO - consulta-factura - OK
+2024-09-05 22:16:23,164 - INFO - realizar-factura - OK
+2024-09-05 22:16:28,196 - INFO - consulta-factura - OK
+2024-09-05 22:16:28,198 - INFO - download-file - OK
+2024-09-05 22:16:28,202 - INFO - realizar-factura - OK
+2024-09-05 22:16:31,192 - ERROR - log-factura - FAIL with status code 504
+2024-09-05 22:16:36,225 - INFO - consulta-factura - OK
+2024-09-05 22:16:36,227 - INFO - realizar-factura - OK
+2024-09-05 22:16:36,228 - INFO - download-file - OK
+2024-09-05 22:16:39,221 - ERROR - log-factura - FAIL with status code 504
+2024-09-05 22:16:44,259 - INFO - consulta-factura - OK
+2024-09-05 22:16:44,262 - INFO - realizar-factura - OK
+2024-09-05 22:16:44,262 - INFO - download-file - OK
+2024-09-05 22:16:47,252 - ERROR - log-factura - FAIL with status code 504
+2024-09-05 22:16:52,365 - INFO - consulta-factura - OK
+2024-09-05 22:16:52,366 - INFO - download-file - OK
+2024-09-05 22:16:52,367 - INFO - realizar-factura - OK
+2024-09-05 22:16:52,368 - INFO - log-factura - OK
+2024-09-05 22:16:57,416 - INFO - consulta-factura - OK
+2024-09-05 22:16:57,420 - INFO - download-file - OK
+2024-09-05 22:16:57,421 - INFO - realizar-factura - OK
+2024-09-05 22:16:57,421 - INFO - log-factura - OK
+2024-09-05 22:17:02,475 - INFO - consulta-factura - OK
+2024-09-05 22:17:02,479 - INFO - download-file - OK
+2024-09-05 22:17:02,480 - INFO - realizar-factura - OK
+2024-09-05 22:17:02,482 - INFO - log-factura - OK
+2024-09-05 22:17:07,566 - INFO - consulta-factura - OK
+2024-09-05 22:17:07,571 - INFO - log-factura - OK
+2024-09-05 22:17:07,571 - INFO - realizar-factura - OK
+2024-09-05 22:17:10,545 - ERROR - download-file - FAIL with status code 504
+2024-09-05 22:17:15,631 - INFO - consulta-factura - OK
+2024-09-05 22:17:15,638 - INFO - log-factura - OK
+2024-09-05 22:17:15,639 - INFO - realizar-factura - OK
+2024-09-05 22:17:18,586 - ERROR - download-file - FAIL with status code 504
+2024-09-05 22:17:23,687 - ERROR - download-file - FAIL with status code 502
+2024-09-05 22:17:23,738 - INFO - log-factura - OK
+2024-09-05 22:17:23,757 - INFO - realizar-factura - OK
+2024-09-05 22:17:23,760 - INFO - consulta-factura - OK
+2024-09-05 22:17:28,844 - INFO - consulta-factura - OK
+2024-09-05 22:17:28,853 - INFO - download-file - OK
+2024-09-05 22:17:28,855 - INFO - log-factura - OK
+2024-09-05 22:17:28,861 - INFO - realizar-factura - OK
+2024-09-05 22:17:33,906 - INFO - consulta-factura - OK
+2024-09-05 22:17:33,909 - INFO - download-file - OK
+2024-09-05 22:17:33,912 - INFO - log-factura - OK
+2024-09-05 22:17:33,915 - INFO - realizar-factura - OK
+2024-09-05 22:17:39,038 - INFO - download-file - OK
+2024-09-05 22:17:39,043 - INFO - consulta-factura - OK
+2024-09-05 22:17:39,048 - INFO - log-factura - OK
+2024-09-05 22:17:39,052 - INFO - realizar-factura - OK
+2024-09-05 22:17:44,092 - INFO - download-file - OK
+2024-09-05 22:17:44,093 - INFO - consulta-factura - OK
+2024-09-05 22:17:44,093 - INFO - log-factura - OK
+2024-09-05 22:17:47,086 - ERROR - realizar-factura - FAIL with status code 504
+2024-09-05 22:17:52,135 - INFO - download-file - OK
+2024-09-05 22:17:52,138 - INFO - log-factura - OK
+2024-09-05 22:17:52,138 - INFO - consulta-factura - OK
+2024-09-05 22:17:55,131 - ERROR - realizar-factura - FAIL with status code 504
+2024-09-05 22:18:00,168 - INFO - consulta-factura - OK
+2024-09-05 22:18:00,169 - INFO - download-file - OK
+2024-09-05 22:18:00,171 - INFO - log-factura - OK
+2024-09-05 22:18:01,181 - ERROR - realizar-factura - FAIL with status code 502
+2024-09-05 22:18:06,204 - INFO - download-file - OK
+2024-09-05 22:18:06,204 - INFO - log-factura - OK
+2024-09-05 22:18:06,205 - INFO - consulta-factura - OK
+2024-09-05 22:18:06,210 - INFO - realizar-factura - OK
+2024-09-05 22:18:11,297 - INFO - log-factura - OK
+2024-09-05 22:18:11,299 - INFO - download-file - OK
+2024-09-05 22:18:11,299 - INFO - consulta-factura - OK
+2024-09-05 22:18:11,302 - INFO - realizar-factura - OK
+2024-09-05 22:18:16,335 - INFO - realizar-factura - OK
+2024-09-05 22:18:16,338 - INFO - download-file - OK
+2024-09-05 22:18:16,341 - INFO - log-factura - OK
+2024-09-05 22:18:19,339 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:18:24,393 - INFO - download-file - OK
+2024-09-05 22:18:24,394 - INFO - realizar-factura - OK
+2024-09-05 22:18:24,395 - INFO - log-factura - OK
+2024-09-05 22:18:27,382 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:18:32,443 - INFO - log-factura - OK
+2024-09-05 22:18:32,444 - INFO - download-file - OK
+2024-09-05 22:18:32,445 - INFO - realizar-factura - OK
+2024-09-05 22:18:35,423 - ERROR - consulta-factura - FAIL with status code 504
+2024-09-05 22:18:40,524 - INFO - download-file - OK
+2024-09-05 22:18:40,527 - INFO - log-factura - OK
+2024-09-05 22:18:40,528 - INFO - realizar-factura - OK
+2024-09-05 22:18:40,530 - INFO - consulta-factura - OK
+2024-09-05 22:18:45,547 - INFO - consulta-factura - OK
+2024-09-05 22:18:45,548 - INFO - download-file - OK
+2024-09-05 22:18:45,551 - INFO - log-factura - OK
+2024-09-05 22:18:45,554 - INFO - realizar-factura - OK
+2024-09-05 22:18:50,598 - INFO - consulta-factura - OK
+2024-09-05 22:18:50,600 - INFO - realizar-factura - OK
+2024-09-05 22:18:50,601 - INFO - download-file - OK
+2024-09-05 22:18:50,603 - INFO - log-factura - OK
+2024-09-05 22:18:55,662 - INFO - consulta-factura - OK
+2024-09-05 22:18:55,665 - INFO - download-file - OK
+2024-09-05 22:18:55,666 - INFO - log-factura - OK
+2024-09-05 22:18:58,639 - ERROR - realizar-factura - FAIL with status code 504
+2024-09-05 22:19:03,671 - INFO - consulta-factura - OK
+2024-09-05 22:19:03,674 - INFO - download-file - OK
+2024-09-05 22:19:03,675 - INFO - log-factura - OK
+2024-09-05 22:19:06,670 - ERROR - realizar-factura - FAIL with status code 504
+2024-09-05 22:19:11,708 - INFO - download-file - OK
+2024-09-05 22:19:11,709 - INFO - consulta-factura - OK
+2024-09-05 22:19:11,711 - INFO - log-factura - OK
+2024-09-05 22:19:14,708 - ERROR - realizar-factura - FAIL with status code 504
+2024-09-05 22:19:19,752 - INFO - consulta-factura - OK
+2024-09-05 22:19:19,754 - INFO - log-factura - OK
+2024-09-05 22:19:19,759 - INFO - download-file - OK
+2024-09-05 22:19:19,768 - INFO - realizar-factura - OK
+2024-09-05 22:19:24,823 - INFO - download-file - OK
+2024-09-05 22:19:24,825 - INFO - consulta-factura - OK
+2024-09-05 22:19:24,826 - INFO - log-factura - OK
+2024-09-05 22:19:24,835 - INFO - realizar-factura - OK
+2024-09-05 22:19:29,881 - INFO - consulta-factura - OK
+2024-09-05 22:19:29,881 - INFO - download-file - OK
+2024-09-05 22:19:29,882 - INFO - log-factura - OK
+2024-09-05 22:19:32,873 - ERROR - realizar-factura - FAIL with status code 504
+2024-09-05 22:19:37,935 - INFO - consulta-factura - OK
+2024-09-05 22:19:37,936 - INFO - download-file - OK
+2024-09-05 22:19:37,937 - INFO - log-factura - OK
+2024-09-05 22:19:40,927 - ERROR - realizar-factura - FAIL with status code 504
+2024-09-05 22:19:45,960 - INFO - log-factura - OK
+2024-09-05 22:19:45,961 - INFO - consulta-factura - OK
+2024-09-05 22:19:45,962 - INFO - download-file - OK
+2024-09-05 22:19:48,967 - ERROR - realizar-factura - FAIL with status code 504
+2024-09-05 22:19:54,034 - INFO - download-file - OK
+2024-09-05 22:19:54,036 - INFO - log-factura - OK
+2024-09-05 22:19:54,037 - INFO - consulta-factura - OK
+2024-09-05 22:19:54,044 - INFO - realizar-factura - OK
+2024-09-05 22:19:59,059 - INFO - consulta-factura - OK
+2024-09-05 22:19:59,060 - INFO - log-factura - OK
+2024-09-05 22:19:59,060 - INFO - download-file - OK
+2024-09-05 22:19:59,063 - INFO - realizar-factura - OK
+2024-09-05 22:20:04,192 - INFO - consulta-factura - OK
+2024-09-05 22:20:04,196 - INFO - realizar-factura - OK
+2024-09-05 22:20:04,195 - INFO - log-factura - OK
+2024-09-05 22:20:04,197 - INFO - download-file - OK
+2024-09-05 22:20:09,251 - INFO - consulta-factura - OK
+2024-09-05 22:20:09,253 - INFO - download-file - OK
+2024-09-05 22:20:09,254 - INFO - realizar-factura - OK
+2024-09-05 22:20:12,248 - ERROR - log-factura - FAIL with status code 504
+2024-09-05 22:20:17,290 - INFO - consulta-factura - OK
+2024-09-05 22:20:17,290 - INFO - download-file - OK
+2024-09-05 22:20:17,291 - INFO - realizar-factura - OK
+2024-09-05 22:20:20,286 - ERROR - log-factura - FAIL with status code 504
+2024-09-05 22:20:25,303 - ERROR - log-factura - FAIL with status code 502
+2024-09-05 22:20:25,313 - INFO - download-file - OK
+2024-09-05 22:20:25,319 - INFO - consulta-factura - OK
+2024-09-05 22:20:25,325 - INFO - realizar-factura - OK
+2024-09-05 22:20:30,366 - INFO - download-file - OK
+2024-09-05 22:20:30,367 - INFO - consulta-factura - OK
+2024-09-05 22:20:30,369 - INFO - realizar-factura - OK
+2024-09-05 22:20:30,371 - INFO - log-factura - OK
+2024-09-05 22:20:35,384 - INFO - download-file - OK
+2024-09-05 22:20:35,388 - INFO - realizar-factura - OK
+2024-09-05 22:20:35,389 - INFO - consulta-factura - OK
+2024-09-05 22:20:35,389 - INFO - log-factura - OK
+2024-09-05 22:20:40,423 - INFO - download-file - OK
+2024-09-05 22:20:40,424 - INFO - consulta-factura - OK
+2024-09-05 22:20:40,428 - INFO - log-factura - OK
+2024-09-05 22:20:40,429 - INFO - realizar-factura - OK
+2024-09-05 22:20:45,454 - INFO - consulta-factura - OK
+2024-09-05 22:20:45,456 - INFO - log-factura - OK
+2024-09-05 22:20:45,456 - INFO - realizar-factura - OK
+2024-09-05 22:20:48,448 - ERROR - download-file - FAIL with status code 504
+2024-09-05 22:20:53,509 - INFO - log-factura - OK
+2024-09-05 22:20:53,510 - INFO - consulta-factura - OK
+2024-09-05 22:20:53,511 - INFO - realizar-factura - OK
+2024-09-05 22:20:56,500 - ERROR - download-file - FAIL with status code 504
