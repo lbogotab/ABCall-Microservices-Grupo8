@@ -5,6 +5,26 @@ services:
     volumes:
       - ./data:/data
 
+  realizar-factura:
+    volumes:
+      - ./microservicio_realizar_factura/:/mnt/
+    build: ./microservicio_realizar_factura
+    working_dir: /flaskr
+    depends_on:
+      - redis
+    ports:
+      - "5001:5001"
+
+  log_factura:
+    volumes:
+      - ./microservicio_log_factura/:/mnt/
+    build: ./microservicio_log_factura
+    working_dir: /flaskr
+    depends_on:
+      - redis
+    ports:
+      - "5002:5002"
+
   consulta-factura:
     volumes:
       - ./consulta-factura/:/mnt/
