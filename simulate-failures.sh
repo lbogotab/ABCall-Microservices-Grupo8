@@ -1,13 +1,18 @@
 #!/bin/bash
+mkdir -p logs
+
+export TZ=UTC  
 
 # Array of service names
 services=("realizar-factura" "log-factura" "consulta-factura" "download-file")
+
+log_filename=$(date '+logs/service_restart_%Y%m%d_%H%M%S.log')
 
 # Function to log timestamps
 log_timestamp() {
     local service=$1
     local action=$2
-    echo "$(date '+%Y-%m-%d %H:%M:%S') - ${service} - ${action}" >> service_restart.log
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - ${service} - ${action}" >> "${log_filename}"
 }
 
 # Infinite loop to randomly kill and restart services

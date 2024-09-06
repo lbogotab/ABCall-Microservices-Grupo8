@@ -1,7 +1,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime
+import os
+import re
 
+log_dir = 'logs'
 
 # Funcion para parsear archivo de logs service_restart.log
 def parse_service_restart_log(file_path):
@@ -19,16 +22,33 @@ def parse_service_monitor_log(file_path):
     data = []
     with open(file_path, 'r') as file:
         for line in file:
-            timestamp_str, _, service, status = line.strip().split(' - ')
+            if('SERVICE-STATUS' not in line):
+                continue
+            timestamp_str, _, service_status,service, status = line.strip().split(' - ')
             timestamp = datetime.strptime(timestamp_str, '%Y-%m-%d %H:%M:%S,%f')
             status = 'OK' if 'OK' in status else 'FAIL'
             data.append({'timestamp': timestamp, 'service': service, 'status': status})
     return pd.DataFrame(data)
 
+def get_most_recent_log_file(log_dir, pattern):
+    log_files = [f for f in os.listdir(log_dir) if re.match(pattern, f)]
+    if not log_files:
+        raise FileNotFoundError("No log files found matching the pattern.")
+    
+    # Extract dates from filenames and sort them
+    log_files.sort(key=lambda x: datetime.strptime(re.search(r'\d{8}_\d{6}', x).group(), '%Y%m%d_%H%M%S'), reverse=True)
+    return os.path.join(log_dir, log_files[0])
+
+monitor_log_pattern = r'service_monitor_\d{8}_\d{6}\.log'
+simulated_fail_log_pattern = r'service_restart_\d{8}_\d{6}\.log'
+monitor_log_file = get_most_recent_log_file(log_dir, monitor_log_pattern)
+simulated_fail_log_file = get_most_recent_log_file(log_dir, simulated_fail_log_pattern)
 
 # Parsear logs
-service_restart_df = parse_service_restart_log('service_restart.log')
-service_monitor_df = parse_service_monitor_log('service_monitor.log')
+print(f'plotting monitor file {monitor_log_file}')
+print(f'plotting simulated fails file {simulated_fail_log_file}')
+service_restart_df = parse_service_restart_log(simulated_fail_log_file)
+service_monitor_df = parse_service_monitor_log(monitor_log_file)
 
 services = service_restart_df['service'].unique()
 

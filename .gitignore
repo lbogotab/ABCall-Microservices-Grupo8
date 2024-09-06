@@ -1,7 +1,8 @@
 # Ignorar la carpeta instance de la base de datos
 instance/
 instance/
-logs/
+logs/*.log
+logs/backup
 
 # Ignorar archivos y carpetas del ambiente virtual
 venv/

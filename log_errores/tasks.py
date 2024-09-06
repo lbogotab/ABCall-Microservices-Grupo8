@@ -1,13 +1,16 @@
 from celery import Celery
 import datetime
 import logging
+import pytz
+
+TIME_ZONE = 'UTC'  
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
-formatter = logging.Formatter('%(asctime)s - %(levelname)s - SERVICE-STATUS - %(message)s')
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 
 # Crear un manejador de archivo para almacenar logs
-log_filename = datetime.datetime.now().strftime('/logs/service_monitor_%Y%m%d_%H%M%S.log')
+log_filename = datetime.datetime.now(pytz.timezone(TIME_ZONE)).strftime('/logs/service_monitor_%Y%m%d_%H%M%S.log')
 file_handler = logging.FileHandler(log_filename)
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
@@ -31,6 +34,6 @@ celery_logger.setLevel(logging.CRITICAL +1)
 @celery_app.task(name='notify_service_down')
 def notify_service_down(service_name, status_code, failure_time):
     if status_code == 200:
-        logger.info(f'{service_name} - OK')
+        logger.info(f'SERVICE-STATUS - {service_name} - OK')
     else:
-        logger.error(f'{service_name} - FAIL with status code {status_code}')
+        logger.error(f'SERVICE-STATUS - {service_name} - FAIL with status code {status_code}')
