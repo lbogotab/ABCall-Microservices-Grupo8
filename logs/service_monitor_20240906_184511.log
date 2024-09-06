@@ -1,0 +1,1441 @@
+2024-09-06 18:45:12,106 - WARNING - /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2024-09-06 18:45:12,143 - WARNING - /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2024-09-06 18:45:13,179 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 18:45:13,179 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:45:13,183 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:45:13,183 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:45:13,185 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 18:45:13,564 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:45:13,565 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:45:13,565 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:45:13,567 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:45:18,628 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:45:18,631 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:45:18,631 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:45:18,633 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:45:23,753 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:45:23,755 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:45:23,758 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:45:23,757 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:45:28,799 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:45:28,799 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:45:28,801 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:45:28,804 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:45:33,828 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:45:33,829 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:45:33,832 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:45:36,832 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:45:41,858 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:45:41,861 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:45:41,861 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:45:44,856 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:45:49,894 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:45:49,894 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:45:49,896 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:45:50,940 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:45:56,011 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:45:56,012 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:45:56,012 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:45:56,011 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:46:01,043 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:46:01,043 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:46:01,049 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:46:01,049 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:46:06,077 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:46:06,078 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:46:06,078 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:46:09,093 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 18:46:14,137 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:46:14,137 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:46:14,138 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:46:17,169 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 18:46:22,185 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:46:22,186 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:46:22,187 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:46:25,201 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 18:46:30,240 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:46:30,240 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:46:30,242 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:46:30,244 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:46:35,268 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:46:35,272 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:46:35,276 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:46:35,276 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:46:40,358 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:46:40,358 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:46:40,361 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:46:40,362 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:46:45,415 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:46:45,415 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:46:45,416 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:46:48,400 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 18:46:53,419 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:46:53,419 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:46:53,423 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:46:56,441 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 18:47:01,472 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:47:01,474 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:47:01,478 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:47:02,489 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 502
+2024-09-06 18:47:07,504 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:47:07,504 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:47:07,506 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:47:07,507 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:47:12,678 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:47:12,678 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:47:12,679 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:47:12,679 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:47:17,678 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 502
+2024-09-06 18:47:17,678 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:47:17,680 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:47:17,680 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:47:22,709 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:47:22,716 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:47:22,716 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:47:25,722 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:47:30,771 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:47:30,779 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:47:30,779 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:47:33,769 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:47:38,800 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:47:38,800 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:47:38,802 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:47:38,802 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:47:43,862 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:47:43,863 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:47:43,864 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:47:43,866 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:47:48,878 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:47:48,882 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:47:48,885 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:47:48,888 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:47:53,930 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:47:53,931 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:47:53,931 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:47:56,903 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 18:48:01,961 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:48:01,961 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:48:01,966 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:48:04,931 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 18:48:09,947 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:48:09,947 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:48:09,956 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:48:12,945 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 18:48:17,969 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:48:17,976 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:48:17,977 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:48:17,980 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:48:22,999 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:48:23,000 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:48:23,003 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:48:23,008 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:48:28,121 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:48:28,124 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:48:28,126 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:48:28,125 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:48:33,141 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:48:33,141 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:48:33,148 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:48:36,155 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:48:41,190 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:48:41,195 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:48:41,198 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:48:44,180 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:48:49,201 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:48:49,201 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:48:49,208 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:48:52,214 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:48:57,272 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:48:57,272 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:48:57,273 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:48:57,275 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:49:02,297 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:49:02,300 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:49:02,300 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:49:02,304 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:49:07,344 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:49:07,346 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:49:07,348 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:49:10,358 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:49:15,389 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:49:15,392 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:49:15,394 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:49:18,389 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:49:23,405 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:49:23,408 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:49:23,410 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:49:26,406 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:49:31,583 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:49:31,587 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:49:31,598 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:49:31,602 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:49:36,604 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:49:36,608 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:49:36,610 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:49:36,610 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:49:41,652 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:49:41,652 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:49:41,657 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:49:41,659 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:49:46,669 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:49:46,669 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:49:46,671 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:49:49,684 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:49:54,789 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:49:54,790 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:49:54,810 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:49:57,743 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:50:02,937 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:50:02,938 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:50:02,939 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:50:03,940 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 502
+2024-09-06 18:50:09,033 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:50:09,038 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:50:09,042 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:50:09,055 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:50:14,121 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:50:14,122 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:50:14,123 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:50:14,126 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:50:19,160 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:50:19,163 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:50:19,167 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:50:19,171 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:50:24,238 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:50:24,238 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:50:24,245 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:50:27,205 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:50:32,262 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:50:32,261 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:50:32,263 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:50:35,245 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:50:40,288 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:50:40,290 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:50:40,290 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:50:41,321 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:50:46,379 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:50:46,381 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:50:46,383 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:50:46,386 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:50:51,450 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:50:51,464 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:50:51,468 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:50:51,470 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:50:56,492 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:50:56,492 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:50:56,494 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:50:59,490 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 18:51:04,562 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:51:04,566 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:51:04,568 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:51:07,524 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 18:51:12,554 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:51:12,557 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:51:12,560 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:51:15,582 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 18:51:20,667 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:51:20,669 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:51:20,672 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:51:20,687 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:51:25,750 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:51:25,751 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:51:25,756 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:51:25,783 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:51:30,817 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:51:30,818 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:51:30,821 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:51:30,825 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:51:35,898 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:51:35,897 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:51:35,899 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:51:38,848 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:51:43,862 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:51:43,865 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:51:43,867 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:51:46,867 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:51:51,908 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:51:51,912 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:51:51,913 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:51:52,926 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:51:57,962 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:51:57,964 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:51:57,966 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:51:57,967 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:52:02,992 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:52:02,994 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:52:02,996 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:52:02,997 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:52:08,035 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:52:08,051 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:52:08,055 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:52:11,035 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 18:52:16,064 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:52:16,064 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:52:16,068 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:52:19,066 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 18:52:24,094 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:52:24,100 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:52:24,100 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:52:27,108 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 18:52:32,138 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:52:32,142 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:52:32,147 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:52:32,147 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:52:37,183 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:52:37,184 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:52:37,187 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:52:37,191 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:52:42,221 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:52:42,225 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:52:42,228 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:52:42,231 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:52:47,274 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:52:47,276 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:52:47,280 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:52:50,268 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 18:52:55,299 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:52:55,305 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:52:55,310 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:52:58,300 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 18:53:03,345 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:53:03,349 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:53:03,354 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:53:06,386 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 18:53:11,438 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:53:11,443 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:53:11,445 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:53:11,446 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:53:16,485 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:53:16,488 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:53:16,489 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:53:16,493 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:53:21,533 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:53:21,548 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:53:21,548 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:53:24,548 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:53:29,589 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:53:29,592 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:53:29,594 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:53:32,573 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:53:37,647 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:53:37,647 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:53:37,648 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:53:40,616 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:53:45,643 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:53:45,647 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:53:45,650 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:53:45,650 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:53:50,661 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:53:50,663 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:53:50,664 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:53:50,665 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:53:55,758 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:53:55,760 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:53:55,758 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:53:55,761 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:54:00,815 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:54:00,815 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:54:00,816 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:54:03,790 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:54:08,876 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:54:08,877 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:54:08,877 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:54:11,823 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:54:16,858 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:54:16,858 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:54:16,863 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:54:17,903 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:54:22,985 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:54:22,991 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:54:22,995 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:54:22,989 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:54:28,028 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:54:28,030 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:54:28,039 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:54:28,041 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:54:33,075 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:54:33,075 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:54:33,076 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:54:36,057 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 18:54:41,109 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:54:41,113 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:54:41,116 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:54:44,091 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 18:54:49,113 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:54:49,116 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:54:49,119 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:54:52,138 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 18:54:57,229 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:54:57,229 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:54:57,229 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:54:57,229 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:55:02,263 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:55:02,263 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:55:02,267 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:55:02,268 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:55:07,290 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:55:07,290 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:55:07,297 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:55:07,298 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:55:12,336 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:55:12,336 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:55:12,340 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:55:15,342 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 18:55:20,370 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:55:20,374 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:55:20,374 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:55:23,517 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 18:55:28,594 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:55:28,594 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:55:28,595 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:55:29,573 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 502
+2024-09-06 18:55:34,709 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:55:34,710 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:55:34,711 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:55:34,714 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:55:39,727 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:55:39,727 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:55:39,731 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:55:39,733 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:55:44,803 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:55:44,804 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:55:44,804 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:55:44,806 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:55:49,859 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:55:49,859 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:55:49,862 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:55:52,850 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 18:55:57,879 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:55:57,879 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:55:57,882 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:56:00,883 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 18:56:05,936 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:56:05,937 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 502
+2024-09-06 18:56:05,940 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:56:05,948 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:56:10,994 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:56:10,999 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:56:11,001 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:56:11,001 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:56:16,024 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:56:16,025 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:56:16,028 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:56:16,029 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:56:21,056 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:56:21,058 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:56:21,065 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:56:21,065 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:56:26,133 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:56:26,134 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:56:26,134 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:56:29,104 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 18:56:34,127 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:56:34,127 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:56:34,134 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:56:37,135 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 18:56:42,156 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 502
+2024-09-06 18:56:42,159 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:56:42,162 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:56:42,162 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:56:47,188 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:56:47,191 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:56:47,192 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:56:47,192 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:56:52,265 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:56:52,268 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:56:52,271 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:56:52,272 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:56:57,292 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:56:57,294 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:56:57,301 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:56:57,301 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:57:02,362 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:57:02,362 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:57:02,363 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:57:05,342 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:57:10,368 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:57:10,370 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:57:10,370 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:57:13,375 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:57:18,378 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:57:18,382 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:57:18,381 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:57:18,384 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:57:23,422 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:57:23,423 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:57:23,426 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:57:23,428 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:57:28,452 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:57:28,456 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:57:28,458 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:57:28,461 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:57:33,475 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:57:33,476 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:57:33,476 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:57:36,476 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 18:57:41,512 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:57:41,514 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:57:41,517 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:57:44,508 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 18:57:49,541 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:57:49,543 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:57:49,547 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:57:52,539 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 18:57:57,586 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:57:57,589 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:57:57,591 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:57:57,593 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:58:02,684 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:58:02,684 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:58:02,686 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:58:02,686 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:58:07,703 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:58:07,705 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:58:07,709 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:58:07,711 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:58:12,749 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:58:12,749 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:58:12,752 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:58:15,753 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 18:58:20,768 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:58:20,774 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:58:20,778 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:58:23,777 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 18:58:28,863 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:58:28,863 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:58:28,866 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:58:31,818 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 18:58:36,862 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:58:36,865 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:58:36,868 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:58:36,869 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:58:41,975 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:58:41,982 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:58:41,983 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:58:41,976 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:58:47,003 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:58:47,003 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:58:47,007 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:58:49,994 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:58:55,022 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:58:55,023 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:58:55,027 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:58:58,055 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:59:03,088 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:59:03,095 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:59:03,095 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:59:06,076 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:59:11,126 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:59:11,129 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:59:11,130 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:59:11,134 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:59:16,156 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:59:16,158 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:59:16,159 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:59:16,160 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:59:21,200 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:59:21,201 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:59:21,207 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:59:21,207 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:59:26,277 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:59:26,277 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:59:26,279 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:59:29,253 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:59:34,317 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:59:34,317 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:59:34,318 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:59:37,291 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 18:59:42,323 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:59:42,323 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:59:42,323 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:59:43,343 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:59:48,425 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:59:48,425 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:59:48,427 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:59:48,427 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:59:53,444 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 18:59:53,444 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:59:53,447 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:59:53,447 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 18:59:58,453 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 18:59:58,466 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 18:59:58,471 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:00:01,491 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:00:06,534 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:00:06,537 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:00:06,540 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:00:09,514 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:00:14,566 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:00:14,569 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:00:14,572 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:00:17,578 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:00:22,669 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:00:22,680 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:00:22,691 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:00:22,702 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:00:27,706 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:00:27,709 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:00:27,710 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:00:27,712 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:00:32,743 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:00:32,747 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:00:32,743 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:00:32,753 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:00:37,825 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:00:37,825 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:00:37,829 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:00:40,812 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:00:45,834 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:00:45,835 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:00:45,837 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:00:48,843 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:00:53,884 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:00:53,887 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:00:53,891 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:00:56,883 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:01:01,944 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:01:01,947 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:01:01,950 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:01:01,951 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:01:06,973 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:01:06,973 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:01:06,977 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:01:06,978 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:01:12,033 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:01:12,034 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:01:12,036 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:01:15,023 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:01:20,035 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:01:20,038 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:01:20,038 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:01:23,056 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:01:28,126 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:01:28,126 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:01:28,128 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:01:31,086 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:01:36,150 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:01:36,151 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:01:36,154 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:01:36,156 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:01:41,170 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:01:41,172 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:01:41,178 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:01:41,182 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:01:46,208 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:01:46,209 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:01:46,212 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:01:46,214 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:01:51,258 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:01:51,258 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:01:51,261 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:01:54,267 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:01:59,312 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:01:59,316 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:01:59,319 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:02:02,312 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:02:07,319 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:02:07,319 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:02:07,320 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:02:07,321 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:02:12,348 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:02:12,349 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:02:12,349 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:02:12,350 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:02:17,373 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:02:17,376 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:02:17,379 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:02:17,379 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:02:22,395 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:02:22,399 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:02:22,401 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:02:22,450 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 502
+2024-09-06 19:02:27,521 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:02:27,521 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:02:27,525 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:02:30,498 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:02:35,523 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:02:35,523 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:02:35,526 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:02:38,526 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:02:43,547 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 502
+2024-09-06 19:02:43,549 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:02:43,553 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:02:43,555 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:02:48,573 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:02:48,574 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:02:48,576 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:02:48,579 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:02:53,634 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:02:53,634 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:02:53,636 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:02:53,639 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:02:58,650 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:02:58,651 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:02:58,655 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:03:01,675 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:03:06,697 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:03:06,703 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:03:06,703 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:03:09,719 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:03:14,741 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:03:14,742 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:03:14,746 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:03:17,756 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:03:22,835 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:03:22,838 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:03:22,838 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:03:22,842 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:03:27,923 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:03:27,923 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:03:27,924 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:03:27,928 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:03:32,955 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:03:32,956 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:03:32,958 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:03:32,958 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:03:38,028 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:03:38,029 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:03:38,030 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:03:41,002 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 19:03:46,024 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:03:46,030 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:03:46,030 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:03:49,029 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 19:03:54,087 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:03:54,087 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:03:54,088 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:03:57,080 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 19:04:02,122 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:04:02,125 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:04:02,127 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:04:02,128 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:04:07,207 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:04:07,207 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:04:07,208 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:04:07,210 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:04:12,235 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:04:12,235 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:04:12,237 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:04:15,248 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:04:20,377 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:04:20,377 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:04:20,383 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:04:23,317 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:04:28,370 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:04:28,373 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:04:28,376 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:04:31,335 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:04:36,443 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:04:36,444 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:04:36,446 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:04:36,445 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:04:41,435 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:04:41,438 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:04:41,438 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:04:41,442 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:04:46,553 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:04:46,553 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:04:46,554 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:04:46,555 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:04:51,653 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:04:51,653 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:04:51,654 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:04:54,673 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:04:59,681 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:04:59,684 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:04:59,686 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:05:02,719 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:05:07,801 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:05:07,801 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:05:07,804 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:05:08,779 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 502
+2024-09-06 19:05:13,856 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:05:13,855 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:05:13,856 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:05:13,858 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:05:18,874 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:05:18,880 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:05:18,883 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:05:18,883 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:05:23,906 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:05:23,907 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:05:23,907 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:05:26,910 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:05:31,950 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:05:31,951 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:05:31,955 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:05:34,951 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:05:39,970 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:05:39,973 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:05:39,974 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:05:42,984 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:05:48,050 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:05:48,051 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:05:48,051 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:05:48,051 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:05:53,071 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:05:53,072 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:05:53,077 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:05:53,077 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:05:58,145 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:05:58,145 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:05:58,147 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:05:58,147 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:06:03,195 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:06:03,198 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:06:03,199 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:06:06,176 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 19:06:11,192 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:06:11,193 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:06:11,195 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:06:14,210 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 19:06:19,246 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:06:19,248 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:06:19,253 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:06:22,250 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 19:06:27,408 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:06:27,408 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:06:27,421 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:06:27,420 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:06:32,421 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:06:32,423 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:06:32,429 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:06:32,429 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:06:37,467 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:06:37,468 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:06:37,470 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:06:40,481 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 19:06:45,509 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:06:45,513 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:06:45,514 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:06:48,508 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 19:06:53,525 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:06:53,533 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:06:53,533 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:06:56,529 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 19:07:01,574 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:07:01,574 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:07:01,575 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:07:01,577 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:07:06,598 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:07:06,601 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:07:06,603 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:07:06,605 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:07:11,667 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:07:11,667 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:07:11,669 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:07:11,673 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:07:16,680 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:07:16,681 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:07:16,682 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:07:19,692 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 19:07:24,736 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:07:24,736 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:07:24,737 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:07:27,741 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 19:07:32,749 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 502
+2024-09-06 19:07:32,751 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:07:32,752 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:07:32,754 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:07:37,911 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:07:37,914 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:07:37,914 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:07:37,916 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:07:42,906 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:07:42,907 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:07:42,911 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:07:42,911 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:07:47,941 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:07:47,941 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:07:47,945 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:07:47,947 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:07:52,987 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:07:52,987 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:07:52,988 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:07:55,976 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 19:08:01,000 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:08:01,006 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:08:01,009 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:08:04,003 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 19:08:09,011 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:08:09,011 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 502
+2024-09-06 19:08:09,014 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:08:09,014 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:08:14,025 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:08:14,025 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:08:14,028 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:08:14,029 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:08:19,056 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:08:19,057 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:08:19,062 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:08:19,063 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:08:24,120 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:08:24,120 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:08:24,125 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:08:24,178 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 502
+2024-09-06 19:08:29,220 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:08:29,220 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:08:29,225 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:08:32,207 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 19:08:37,234 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:08:37,237 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:08:37,239 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:08:40,239 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 19:08:45,251 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:08:45,252 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 502
+2024-09-06 19:08:45,255 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:08:45,255 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:08:50,274 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:08:50,274 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:08:50,277 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:08:50,280 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:08:55,298 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:08:55,305 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:08:55,309 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:08:55,312 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:09:00,327 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:09:00,328 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:09:00,329 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:09:03,345 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:09:08,372 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:09:08,376 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:09:08,381 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:09:11,367 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:09:16,400 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:09:16,401 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:09:16,407 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:09:19,403 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:09:24,467 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:09:24,468 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:09:24,468 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:09:24,473 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:09:29,495 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:09:29,495 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:09:29,500 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:09:29,500 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:09:34,560 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:09:34,562 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:09:34,564 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:09:34,566 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:09:39,592 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:09:39,592 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:09:39,601 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:09:42,592 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:09:47,616 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:09:47,620 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:09:47,625 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:09:50,616 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:09:55,646 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:09:55,646 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:09:55,647 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:09:58,650 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:10:03,718 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:10:03,718 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:10:03,720 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:10:03,720 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:10:08,736 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:10:08,738 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:10:08,741 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:10:08,741 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:10:13,779 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:10:13,779 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:10:13,780 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:10:16,778 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:10:21,784 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:10:21,784 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:10:21,787 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:10:24,797 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:10:29,833 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:10:29,836 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:10:29,842 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:10:32,823 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:10:37,883 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:10:37,886 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:10:37,891 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:10:37,893 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:10:42,915 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:10:42,920 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:10:42,922 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:10:42,923 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:10:47,978 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:10:47,979 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:10:47,982 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:10:47,981 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:10:52,997 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:10:53,001 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:10:53,004 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:10:56,013 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 19:11:01,032 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:11:01,036 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:11:01,038 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:11:04,022 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 19:11:09,037 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:11:09,051 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 502
+2024-09-06 19:11:09,058 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:11:09,068 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:11:14,074 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:11:14,077 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:11:14,078 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:11:14,078 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:11:19,105 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:11:19,108 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:11:19,109 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:11:19,110 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:11:24,196 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:11:24,200 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:11:24,201 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:11:24,196 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:11:29,233 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:11:29,237 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:11:29,233 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:11:32,224 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 19:11:37,245 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:11:37,251 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:11:37,251 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:11:40,265 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 19:11:45,265 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:11:45,266 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 502
+2024-09-06 19:11:45,267 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:11:45,268 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:11:50,300 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:11:50,300 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:11:50,303 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:11:50,304 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:11:55,325 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:11:55,327 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:11:55,331 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:11:55,331 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:12:00,349 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 502
+2024-09-06 19:12:00,349 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:12:00,351 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:12:00,353 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:12:05,375 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:12:05,377 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:12:05,383 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:12:08,413 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:12:13,455 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:12:13,459 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:12:13,461 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:12:16,437 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:12:21,458 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:12:21,459 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:12:21,462 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:12:21,463 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:12:26,501 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:12:26,513 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:12:26,516 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:12:26,519 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:12:31,584 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:12:31,584 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:12:31,586 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:12:31,586 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:12:36,602 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:12:36,602 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:12:36,604 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:12:39,607 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:12:44,674 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:12:44,675 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:12:44,683 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:12:47,627 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:12:52,660 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:12:52,663 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:12:52,667 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:12:55,681 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:13:00,711 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:13:00,714 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:13:00,717 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:13:00,720 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:13:05,751 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:13:05,752 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:13:05,755 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:13:05,758 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:13:10,788 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:13:10,788 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:13:10,792 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:13:10,796 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:13:15,821 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:13:15,828 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:13:15,833 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:13:18,836 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 19:13:23,877 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:13:23,879 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:13:23,880 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:13:26,883 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 19:13:31,938 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:13:31,942 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:13:31,944 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:13:34,956 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 19:13:40,009 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:13:40,013 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:13:40,015 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:13:40,018 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:13:45,066 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:13:45,068 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:13:45,070 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:13:45,072 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:13:50,111 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:13:50,115 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:13:50,119 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:13:53,135 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 19:13:58,171 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:13:58,173 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:13:58,178 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:14:01,168 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 19:14:06,198 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:14:06,199 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:14:06,201 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:14:09,182 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 19:14:14,221 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:14:14,223 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:14:14,227 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:14:14,229 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:14:19,275 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:14:19,277 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:14:19,277 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:14:19,279 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:14:24,315 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:14:24,316 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:14:24,321 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:14:24,323 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:14:29,374 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:14:29,377 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:14:29,377 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:14:32,392 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 19:14:37,432 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:14:37,438 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:14:37,438 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:14:40,434 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 19:14:45,443 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:14:45,446 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 502
+2024-09-06 19:14:45,446 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:14:45,448 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:14:50,479 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:14:50,482 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:14:50,482 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:14:50,485 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:14:55,569 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:14:55,573 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:14:55,578 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:14:55,581 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:15:00,621 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:15:00,622 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:15:00,626 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:15:03,616 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:15:08,660 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:15:08,665 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:15:08,666 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:15:11,649 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:15:16,674 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:15:16,678 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:15:16,681 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:15:19,691 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:15:24,795 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:15:24,795 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:15:24,799 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:15:24,813 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:15:29,838 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:15:29,839 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:15:29,841 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:15:29,842 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:15:34,863 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:15:34,865 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:15:34,868 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:15:34,873 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:15:39,902 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:15:39,902 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:15:39,905 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:15:42,937 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 19:15:47,977 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:15:47,980 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:15:47,981 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:15:50,976 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 19:15:56,000 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:15:56,005 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:15:56,007 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:15:59,025 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 19:16:04,072 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:16:04,076 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:16:04,077 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:16:04,079 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:16:09,121 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:16:09,125 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:16:09,125 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:16:09,129 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:16:14,190 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:16:14,191 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:16:14,193 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:16:17,159 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:16:22,185 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:16:22,186 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:16:22,189 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:16:25,217 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:16:30,258 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:16:30,262 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:16:30,266 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:16:33,249 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:16:38,292 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:16:38,294 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:16:38,297 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:16:38,297 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:16:43,316 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:16:43,321 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:16:43,324 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:16:43,324 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:16:48,364 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:16:48,365 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:16:48,368 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:16:48,370 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:16:53,411 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:16:53,414 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:16:53,417 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:16:56,411 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 19:17:01,458 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:17:01,462 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:17:01,465 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:17:04,468 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 19:17:09,470 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:17:09,472 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 502
+2024-09-06 19:17:09,472 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:17:09,477 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:17:14,493 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:17:14,495 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:17:14,496 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:17:14,497 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:17:19,586 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:17:19,586 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:17:19,589 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:17:19,589 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:17:25,109 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:17:25,110 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:17:25,110 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:17:25,108 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:17:30,317 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:17:30,317 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:17:30,328 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:17:33,267 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 19:19:23,021 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:19:23,052 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:19:23,080 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:19:25,856 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 19:19:30,884 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:19:30,886 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:19:30,890 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:19:31,939 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:19:36,978 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:19:36,980 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:19:37,000 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:19:37,003 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:19:42,027 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:19:42,031 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:19:42,033 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:19:42,036 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:19:47,123 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:19:47,123 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:19:47,123 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:19:50,099 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:19:55,427 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:19:55,428 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:19:55,429 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:19:58,436 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:20:03,545 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:20:03,546 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:20:03,562 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:20:06,513 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:20:11,539 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:20:11,539 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:20:11,541 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:20:11,575 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:20:16,612 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:20:16,612 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:20:16,614 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:20:16,617 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:20:21,639 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:20:21,639 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:20:21,643 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:20:21,644 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:20:26,696 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:20:26,699 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:20:26,701 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:20:29,677 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:20:34,712 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:20:34,712 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:20:34,716 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:20:37,704 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:20:42,726 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:20:42,726 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:20:42,735 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:20:45,754 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:20:50,805 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:20:50,812 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:20:50,814 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:20:50,816 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:20:55,871 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:20:55,873 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:20:55,878 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:20:55,882 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:21:00,951 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:21:00,969 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:21:00,965 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:21:00,968 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:21:06,042 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:21:06,043 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:21:06,045 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:21:09,039 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 19:21:14,086 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:21:14,086 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:21:14,087 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:21:17,068 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 19:21:22,138 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:21:22,138 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:21:22,140 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:21:25,157 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 19:21:30,189 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:21:30,199 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:21:30,203 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:21:30,207 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:21:35,330 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:21:35,330 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:21:35,333 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:21:35,334 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:21:40,392 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:21:40,392 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:21:40,393 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:21:43,359 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:21:48,394 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:21:48,394 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:21:48,397 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:21:51,384 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:21:56,484 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:21:56,484 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:21:56,499 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:21:59,429 - ERROR - SERVICE-STATUS - consulta-factura - FAIL with status code 504
+2024-09-06 19:22:04,475 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:22:04,476 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:22:04,476 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:22:04,477 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:22:09,530 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:22:09,530 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:22:09,531 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:22:09,536 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:22:14,583 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:22:14,583 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:22:14,586 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:22:14,587 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:22:19,634 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:22:19,634 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:22:19,635 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:22:22,612 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 19:22:27,691 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:22:27,692 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:22:27,692 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:22:30,659 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 19:22:35,796 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:22:35,797 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:22:35,800 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 502
+2024-09-06 19:22:35,806 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:22:40,834 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:22:40,836 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:22:40,842 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:22:40,843 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:22:45,881 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:22:45,881 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:22:45,886 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:22:45,890 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:22:50,906 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:22:50,909 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:22:50,911 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:22:50,913 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:22:55,996 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:22:55,996 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:22:55,998 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:22:58,948 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 19:23:03,975 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:23:03,977 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:23:03,979 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:23:06,978 - ERROR - SERVICE-STATUS - download-file - FAIL with status code 504
+2024-09-06 19:23:12,017 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:23:12,019 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:23:12,019 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:23:13,052 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:23:18,097 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:23:18,101 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:23:18,097 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:23:18,102 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:23:23,148 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:23:23,151 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:23:23,148 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:23:23,156 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:23:28,172 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:23:28,173 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:23:28,176 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:23:31,259 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 19:23:36,288 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:23:36,290 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:23:36,295 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:23:39,294 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 19:23:44,312 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:23:44,316 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:23:44,321 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:23:47,311 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 19:23:52,354 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:23:52,359 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:23:52,362 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:23:52,363 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:23:57,407 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:23:57,409 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:23:57,413 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:23:57,414 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:24:02,463 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:24:02,472 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:24:02,478 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:24:02,481 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:24:07,566 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:24:07,569 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:24:07,569 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:24:10,514 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:24:15,536 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:24:15,537 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:24:15,539 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:24:18,554 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 504
+2024-09-06 19:24:23,592 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:24:23,593 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:24:23,594 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:24:24,650 - ERROR - SERVICE-STATUS - realizar-factura - FAIL with status code 502
+2024-09-06 19:24:29,674 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:24:29,678 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:24:29,679 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:24:29,680 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:24:34,827 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:24:34,831 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:24:34,827 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:24:34,834 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:24:39,834 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:24:39,836 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:24:39,836 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:24:42,868 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 19:24:47,901 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:24:47,904 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:24:47,906 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:24:50,894 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 19:24:55,926 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:24:55,935 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:24:55,941 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:24:58,924 - ERROR - SERVICE-STATUS - log-factura - FAIL with status code 504
+2024-09-06 19:25:03,980 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:25:03,980 - INFO - SERVICE-STATUS - realizar-factura - OK
+2024-09-06 19:25:03,981 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:25:03,983 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:25:09,058 - INFO - SERVICE-STATUS - log-factura - OK
+2024-09-06 19:25:09,058 - INFO - SERVICE-STATUS - consulta-factura - OK
+2024-09-06 19:25:09,060 - INFO - SERVICE-STATUS - download-file - OK
+2024-09-06 19:25:09,062 - INFO - SERVICE-STATUS - realizar-factura - OK
