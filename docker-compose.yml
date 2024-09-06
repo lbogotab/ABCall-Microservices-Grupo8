@@ -73,7 +73,9 @@ services:
     build: ./monitor
 
   log_errores:
+    volumes:
+      - ./logs/:/logs
     build: ./log_errores
-    command: celery -A tasks worker --loglevel=info -Q error_log
+    command: celery -A tasks worker --loglevel=info -Q status_log
     depends_on:
       - redis
