@@ -17,7 +17,7 @@ db.create_all()
 
 api = Api(app)
 
-celery_app = Celery('tasks', broker='redis://localhost:6379/0')
+celery_app = Celery('tasks', broker='redis://abcall:6379/0')
 
 @celery_app.task(name='factura_log')
 def registrar_log(id_factura, fecha_factura):
@@ -32,7 +32,7 @@ class VistaHealth(Resource):
 
 class VistaRealizarFactura(Resource):
     def post(self, id):
-        response = requests.get(f'http://localhost:5060/usuario/{id}')
+        response = requests.get(f'http://abcall:5000/usuario/{id}')
         
         if response.status_code == 404:
             return response.json(), 404
@@ -91,5 +91,5 @@ class VistaConsultarFactura(Resource):
 api.add_resource(VistaConsultarFactura, '/factura/<int:id>')
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5061)
+    app.run(debug=True, port=5001)
             

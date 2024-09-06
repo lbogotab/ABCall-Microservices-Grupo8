@@ -5,6 +5,16 @@ services:
     volumes:
       - ./data:/data
 
+  abcall:
+    volumes:
+      - ./ABCall/:/mnt/
+    build: ./ABCall
+    working_dir: /flaskr
+    depends_on:
+      - redis
+    ports:
+      - "5000:5000"
+
   realizar-factura:
     volumes:
       - ./microservicio_realizar_factura/:/mnt/
