@@ -25,7 +25,7 @@ services:
     ports:
       - "5001:5001"
 
-  log_factura:
+  log-factura:
     volumes:
       - ./microservicio_log_factura/:/mnt/
     build: ./microservicio_log_factura
