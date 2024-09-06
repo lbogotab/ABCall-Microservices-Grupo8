@@ -1,9 +1,11 @@
 # Ignorar la carpeta instance de la base de datos
 instance/
 instance/
+logs/
 
 # Ignorar archivos y carpetas del ambiente virtual
 venv/
+.venv/
 .env/
 *.pyc
 __pycache__/

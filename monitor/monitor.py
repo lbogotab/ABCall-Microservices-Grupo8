@@ -42,14 +42,14 @@ def check_service(name, url):
     try:
         response = requests.get(url)
         if response.status_code == 200:
-            logger.info(f'{name} is UP')
+            logger.info(f'{name} - OK')
         else:
-            logger.error(f'{name} is DOWN with status code {response.status_code}')
+            logger.error(f'{name} - FAIL with status code {response.status_code}')
             failure_time = datetime.datetime.now().isoformat()
             args = (name, response.status_code, failure_time)
             notify_service_down.apply_async(args=args, queue=error_log_queue)
     except requests.exceptions.RequestException as e:
-        logger.error(f'{name} is DOWN with error: {e}')
+        logger.error(f'{name} - FAIL with error: {e}')
         failure_time = datetime.datetime.now().isoformat()
         args = (name, str(e), failure_time)
         notify_service_down.apply_async(args=args, queue=error_log_queue)
@@ -65,7 +65,7 @@ def monitor_services():
             ]
             for future in futures:
                 future.result()
-            time.sleep(8)  # Tiempo de espera antes de la siguiente verificación
+            time.sleep(5)  # Tiempo de espera antes de la siguiente verificación
 
 
 if __name__ == "__main__":
