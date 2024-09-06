@@ -8,9 +8,7 @@ app = Flask(__name__)
 api = Api(app)
 
 memory_hog = []
-
-celery_app = Celery('tasks', broker='redis://localhost:6379/0')
-
+celery_app = Celery('tasks', broker='redis://redis:6379/0')
 
 @celery_app.task(name='descarga_factura_log')
 def registrar_log_descarga(id_factura, fecha_descarga):
@@ -19,7 +17,7 @@ def registrar_log_descarga(id_factura, fecha_descarga):
 
 class VistaDescargarFactura(Resource):
     def get(self, id):
-        response = requests.get(f'http://localhost:5061/factura/{id}')
+        response = requests.get(f'http://realizar-factura:5001/factura/{id}')
 
         if response.status_code == 404:
             return {'message': 'Factura no encontrada'}, 404
@@ -66,4 +64,4 @@ def health():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5063)
+    app.run(host="0.0.0.0", port=5020)

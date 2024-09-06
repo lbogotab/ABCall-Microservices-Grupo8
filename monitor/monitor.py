@@ -7,9 +7,11 @@ from celery import Celery
 
 celery_app = Celery(__name__, broker='redis://redis:6379/0')
 
+
 @celery_app.task(name='notify_service_down')
 def notify_service_down(*args):
     pass
+
 
 error_log_queue = 'error_log'
 
@@ -31,6 +33,8 @@ logger.addHandler(console_handler)
 endpoints = {
     'consulta-factura': 'http://nginx/facturacion/consulta-factura/health',
     'download-file': 'http://nginx/facturacion/download-file/health',
+    'log-factura': 'http://nginx/facturacion/log-factura/health',
+    'realizar-factura': 'http://nginx/facturacion/realizar-factura/health',
 }
 
 
@@ -55,9 +59,12 @@ def check_service(name, url):
 def monitor_services():
     with ThreadPoolExecutor(max_workers=len(endpoints)) as executor:
         while True:
-            futures = [executor.submit(check_service, name, url) for name, url in endpoints.items()]
+            futures = [
+                executor.submit(check_service, name, url)
+                for name, url in endpoints.items()
+            ]
             for future in futures:
-                future.result()  
+                future.result()
             time.sleep(8)  # Tiempo de espera antes de la siguiente verificación
 
 
