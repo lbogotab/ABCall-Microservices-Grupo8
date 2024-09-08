@@ -71,6 +71,12 @@ Una vez hayan suficientes logs disponibles puedes ejecutar el siguiente comando 
 python plot.py
 ```
 
+Instalar panda si no lo tiene instalado
+
+```
+pip install pandas
+```
+
 # Finalizar la ejecución
 Puedes detener la simulación de fallas usando Ctrl+C en la terminal donde se está ejecutando
 
