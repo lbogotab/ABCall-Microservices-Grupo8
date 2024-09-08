@@ -77,6 +77,12 @@ Instalar panda si no lo tiene instalado
 pip install pandas
 ```
 
+Ejecuta el siguiente comando para instalar matplotlib:
+
+```
+pip install matplotlib
+```
+
 # Finalizar la ejecución
 Puedes detener la simulación de fallas usando Ctrl+C en la terminal donde se está ejecutando
 
